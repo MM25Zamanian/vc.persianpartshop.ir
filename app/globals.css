@@ -462,3 +462,22 @@ bdi {
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+
+/* Faint, fixed ornament at RTL bottom-start; contained beneath all page UI. */
+body { position: relative; isolation: isolate; }
+body::before {
+  content: "";
+  position: fixed;
+  inset-inline-start: -1.5rem;
+  inset-block-end: -2rem;
+  width: clamp(13rem, 32vw, 30rem);
+  aspect-ratio: 157 / 206;
+  background: url("/assets/achaemenid-pattern.webp") center / contain no-repeat;
+  opacity: 0.045;
+  mask-image: linear-gradient(to top, #000 20%, #0009 55%, transparent 100%);
+  pointer-events: none;
+  z-index: -1;
+}
+@media print {
+  body::before { display: none; }
+}

@@ -157,3 +157,18 @@ User rejected the SVG approximation. Re-read official registry source and craft/
 ## 2026-11-17 — GHCR build/publish workflow
 
 Technical CI/container change, with no UI/React or design-system changes. No design skill activated; visual/redesign gates are not applicable. Read installed Next deployment/static-export documentation and official Docker/GitHub Actions sources; inspected local StoryFrame and Persian Part Shop workflows. Implemented one publish job, path filtering, cancellation, GHA layer cache, and explicit Docker builder inputs. actionlint 1.7.12, tsc, lint and build passed (lint retains 93 existing warnings). No Docker daemon or git remote, so actual image publication, cache timing and deployment remain unverified; no claim of independent design review or runtime image validation. Full details: docs/ci-ghcr.md.
+
+## 2026-11-17 — Office lines and surname-only contact titles
+
+Targeted content change using custom project/React guidance and current craft-floor; installed Next Server/Client guide read. Central config adds four explicitly confirmed office lines and updates male display/contact title without given name; existing female surname/title retained. Shared typed PhoneLines server component avoids duplicating store/office row markup; compact phone styles and no-script content reused. Dev browser verified exact4tel destinations, both titles/no given name, narrow320/200% text without horizontal overflow. Existing frame captures repeated after450ms transition completion. TypeScript/build passed; lint0errors/93existing warnings. No new Next feedback candidate or formal design critique claimed.
+
+### Contact copy correction
+Applied user's exact surname/title correction and shared confirmed sales role; removed obsolete sample flag. Reused project context and React guidance, consulted installed Next Server/Client docs. Verified live drawer DOM and required checks; no layout/design overhaul or new critique claimed.
+
+## 2026-11-17 — Territory wording and two sales contacts
+
+Applied confirmed user content to centralized business data, preserving surname-only honorifics and shared sales role. Added two real phone destinations. Custom project context and previously read React guidance reused; official installed metadata docs and og-image-design read for synchronizing existing preview. Regenerated OG with existing code-native HTML/font/logo renderer and inspected1200x630 PNG; no new visual identity or public unfurl claim. Live drawer DOM verified4roles/4tel links and exact representation; completed-transition screenshot inspected. Metadata/vCard derive content from config. Checks/results recorded in QA; no new qualifying Next feedback candidate.
+
+## 2026-11-17 — Soft Achaemenid bottom-start ornament
+
+Read imagegen skill and native instructions; used the native imagegen edit with original p11 PNG and a browser-rendered alpha-amplified inspection reference. The original157x206 PNG has alpha0..20 and was inspected before editing; original bytes preserved. Generated1095x1436 transparent reconstruction copied locally; original native generation retained in generated_images. cwebp encoded delivery asset without resizing or redesign. Applied brand/custom context and Impeccable craft-floor; installed Next images docs consulted. Fixed CSS pseudo-element is decorative, noninteractive and behind UI; no new React/client component. Inspected390/1440 screenshots; measured320/390/1440 nooverflow and stacking; Drawer open/Escape still works. No independent formal critique or claim of official approval of reconstructed art; QA and provenance recorded.

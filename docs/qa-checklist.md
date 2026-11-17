@@ -115,3 +115,19 @@ Evidence docs/qa/beam-four/: exactly4 gradient squares; relative phase differenc
 ## 2026-11-17 — GHCR workflow
 
 Infrastructure-only change; no UI behavior modified. Workflow validated with actionlint 1.7.12, no diagnostics. TypeScript and production build passed; lint passed with zero errors and 93 existing vendored-skill warnings. Existing metadataBase warning remains without SITE_URL. Docker daemon unavailable and repository has no remote: actual image build/run/push, registry access, cache hits and GitHub runtime/cost remain unverified. No new visual/keyboard/reduced-motion pass was needed for this change. Next feedback reporting pass: no new qualifying candidate; no submission command needed. See ci-ghcr.md for setup and tradeoffs.
+
+## 2026-11-17 — Office lines and contact titles
+
+Evidence docs/qa/office-phones/: four office tel links match +985137123212/13/14/15; actual full URI values recorded in checks.json. Contact titles match family-name-only request with existing surnames; given name absent. At320px/200% text, page and drawer body have no horizontal overflow; all4links remain in scrollable body. Office/contact screenshot captures use completed transitions and loaded fonts. TypeScript, production build and diff check passed; lint zero errors with93existing skill warnings. No new framework feedback candidate.
+
+### اصلاح نهایی عنوان افراد
+نام‌های دقیق «سرکار خانم آزما» و «جناب آقای مهندسی مهربان» با عنوان مشترک «کارشناس فروش» در DOM پنل واقعی بررسی شد؛ دیگر برچسب نمونه وجود ندارد. TypeScript و build موفق؛ lint صفر خطا و۹۳هشدار قبلی. این اصلاح متنی است؛ مرور تصویری/دستگاه فیزیکی مجدد انجام نشد. candidate جدید برای Next feedback وجود ندارد.
+
+### عبارت جدید نمایندگی و چهار کارشناس
+عبارت دقیق جدید در DOM کارت و تصویر OG/alt هماهنگ شد. چهار نام/عنوان/شماره در پنل واقعی بررسی و screenshot مشاهده شد؛ تماس‌های جدید +989150026400 و+989150297404 صحیح‌اند. تصویر1200x630 با فونت/لوگوی موجود بازتولید و مشاهده شد؛ unfurl عمومی تکرار نشد. خروجی static vCard پنج رکورد دارد (مجموعه+چهار کارشناس) و هر دو شماره جدید تأیید شدند. TypeScript و build و diff-check موفق؛ lint صفر خطا با۹۳هشدار قبلی. آزمون دستگاه واقعی انجام نشد.
+
+## 2026-11-17 — Soft Achaemenid ornament
+
+Original p11 downloaded from user URL and preserved in docs/reference. RGBA alpha0..20/255 verified; visible browser reference inspected. Native imagegen reconstructed transparent1095x1436 motif; delivery WebP163KB, no original-logo change. Provenance and SHA256 in docs/design/achaemenid-pattern.json. Native generation retained; conversion was delivery encoding only.
+
+Evidence docs/qa/achaemenid-pattern/: image decodes;320/390/1440 page widths match viewport; pseudo-element fixed at RTL start/right, opacity0.045, pointer-events:none, z-index:-1 in isolated body; top mask fades. Final390/1440 screenshots inspected. Store Drawer opens and dismisses with Escape. No new motion; decoration hidden when printing. TypeScript, lint (0errors,93existing warnings), clean production build and whitespace checks passed. Final production CSS verified to reference existing WebP, not stale PNG. Known build-cache behavior worked around without duplicate Next feedback report; no new qualifying candidate. Physical device/public deployment not verified.

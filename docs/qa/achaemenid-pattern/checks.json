@@ -1,0 +1,45 @@
+{
+  "viewports": [
+    {
+      "bottom": "-32px",
+      "image": "url(\"http://localhost:3000/assets/achaemenid-pattern.webp\")",
+      "isolation": "isolate",
+      "mask": "linear-gradient(to top, rgb(0, 0, 0) 20%, rgba(0, 0, 0, 0.6) 55%, rgba(0, 0, 0, 0) 100%)",
+      "opacity": "0.045",
+      "pointer": "none",
+      "position": "fixed",
+      "right": "-24px",
+      "scroll": 320,
+      "width": 320,
+      "z": "-1"
+    },
+    {
+      "bottom": "-32px",
+      "image": "url(\"http://localhost:3000/assets/achaemenid-pattern.webp\")",
+      "isolation": "isolate",
+      "mask": "linear-gradient(to top, rgb(0, 0, 0) 20%, rgba(0, 0, 0, 0.6) 55%, rgba(0, 0, 0, 0) 100%)",
+      "opacity": "0.045",
+      "pointer": "none",
+      "position": "fixed",
+      "right": "-24px",
+      "scroll": 390,
+      "width": 390,
+      "z": "-1"
+    },
+    {
+      "bottom": "-32px",
+      "image": "url(\"http://localhost:3000/assets/achaemenid-pattern.webp\")",
+      "isolation": "isolate",
+      "mask": "linear-gradient(to top, rgb(0, 0, 0) 20%, rgba(0, 0, 0, 0.6) 55%, rgba(0, 0, 0, 0) 100%)",
+      "opacity": "0.045",
+      "pointer": "none",
+      "position": "fixed",
+      "right": "-24px",
+      "scroll": 1440,
+      "width": 1440,
+      "z": "-1"
+    }
+  ],
+  "drawer": true,
+  "errors": ""
+}

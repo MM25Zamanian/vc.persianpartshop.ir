@@ -6,13 +6,14 @@ import { business, directionsUrl } from "@/config/business";
 import { ContactDrawer } from "./_contact-drawer";
 import { BorderBeam } from "./_border-beam";
 
-function ShowroomPhones() {
+function PhoneLines({ phones, label }: { phones: readonly { display: string; uri: string }[]; label: string }) {
+  const ordinals = ["اول", "دوم", "سوم", "چهارم"];
   return (
     <ul className="contact-list">
-      {business.showroom.phones.map((phone, index) => (
+      {phones.map((phone, index) => (
         <li key={phone.uri}>
           <a className="contact-row" href={`tel:${phone.uri}`}>
-            <span className="contact-name">خط {index === 0 ? "اول" : "دوم"} فروشگاه</span>
+            <span className="contact-name">خط {ordinals[index] ?? index + 1} {label}</span>
             <span className="phone-number"><bdi dir="ltr">{phone.display}</bdi><PhoneCallingIcon size={20} aria-hidden="true" /></span>
           </a>
         </li>
@@ -28,7 +29,7 @@ function SalesContacts() {
         <li key={person.id}>
           <a className="contact-row" href={`tel:${person.phone.uri}`}>
             <span className="contact-name">{person.name}</span>
-            <span className="contact-role">{person.role}{person.roleIsSample && " (نمونه)"}</span>
+            <span className="contact-role">{person.role}</span>
             <span className="phone-number"><bdi dir="ltr">{person.phone.display}</bdi><PhoneCallingIcon size={20} aria-hidden="true" /></span>
           </a>
         </li>
@@ -70,19 +71,20 @@ export default function Home() {
           </ContactDrawer>
           <ContactDrawer label="دفتر مرکزی" title="دفتر مرکزی" pattern={<Image src="/assets/maps/office-map.svg" alt="" fill sizes="(max-width: 544px) 100vw, 544px" unoptimized />} icon={<MapPointIcon size={24} />}>
             <LocationDetails location={business.office} />
+            <div className="location-phones"><PhoneLines phones={business.office.phones} label="دفتر" /></div>
             <MapCredit />
           </ContactDrawer>
           <ContactDrawer label="فروشگاه مرکزی" title="فروشگاه مرکزی" pattern={<Image src="/assets/maps/store-map.svg" alt="" fill sizes="(max-width: 544px) 100vw, 544px" unoptimized />} icon={<MapPointIcon size={24} />}>
             <LocationDetails location={business.showroom} />
-            <div className="location-phones"><ShowroomPhones /></div>
+            <div className="location-phones"><PhoneLines phones={business.showroom.phones} label="فروشگاه" /></div>
             <MapCredit />
           </ContactDrawer>
         </nav>
         <noscript>
           <section className="no-script-contacts" aria-label="اطلاعات تماس">
             <h2>ارتباط با ما</h2><SalesContacts />
-            <h2>دفتر مرکزی</h2><LocationDetails location={business.office} />
-            <h2>فروشگاه مرکزی</h2><LocationDetails location={business.showroom} /><ShowroomPhones />
+            <h2>دفتر مرکزی</h2><LocationDetails location={business.office} /><PhoneLines phones={business.office.phones} label="دفتر" />
+            <h2>فروشگاه مرکزی</h2><LocationDetails location={business.showroom} /><PhoneLines phones={business.showroom.phones} label="فروشگاه" />
           </section>
         </noscript>
       </div>

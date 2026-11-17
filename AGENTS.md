@@ -10,7 +10,7 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 ## Project overview
 
-Persian RTL permanent online business card for بازرگانی زمانیان, with the supplied wording نمایندگی انحصاری شرکت کاشی پرسپولیس یزد. The user explicitly replaced the exhibition invitation on 2026-11-15; all event-specific obligations are superseded. Read `docs/business-card-analysis.md`, `docs/README.md`, `docs/project-brief.md`, `docs/content.md`, `docs/brand-guidelines.md`, `docs/design-system.md`, `docs/architecture.md`, `docs/implementation-plan.md`, and `docs/qa-checklist.md` before relevant work. Supplied content overrides image-inferred text. Update docs and decisions when behavior, design, or verification changes.
+Persian RTL permanent online business card for بازرگانی زمانیان, with the supplied wording نمایندگی انحصاری کاشی پرسپولیس یزد در خراسان بزرگ. The user explicitly replaced the exhibition invitation on 2026-11-15; all event-specific obligations are superseded. Read `docs/business-card-analysis.md`, `docs/README.md`, `docs/project-brief.md`, `docs/content.md`, `docs/brand-guidelines.md`, `docs/design-system.md`, `docs/architecture.md`, `docs/implementation-plan.md`, and `docs/qa-checklist.md` before relevant work. Supplied content overrides image-inferred text. Update docs and decisions when behavior, design, or verification changes.
 
 ## Skill activation
 

@@ -1,0 +1,19 @@
+{
+  "sourceUrl": "https://www.persepolistile.ir/images/p11.png",
+  "method": "Native imagegen reconstruction using downloaded PNG and browser-rendered alpha-amplified reference; WebP encoded for delivery. Original unchanged.",
+  "generatedSource": "exec-ca7e7ce0-ffad-41aa-9aea-c03332d0ee42.png",
+  "opacity": 0.045,
+  "position": "RTL bottom-start (right), fixed, under UI, fades at top",
+  "assets": [
+    {
+      "path": "docs/reference/persepolis-p11-original.png",
+      "bytes": 15507,
+      "sha256": "ce821362284421a51ba5b0884ed42f2239d1bbb5c850accd951d7b797d79244f"
+    },
+    {
+      "path": "public/assets/achaemenid-pattern.webp",
+      "bytes": 166868,
+      "sha256": "798e7cbabf9c5c85fb02e421830867f57760a869b3ea0f1871342c9c6f5a276e"
+    }
+  ]
+}
