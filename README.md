@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# کارت ویزیت آنلاین بازرگانی زمانیان
 
-## Getting Started
-
-First, run the development server:
+کارت افقی فارسی و RTL با چهار bottom drawer از Base UI برای نمایندگی انحصاری شرکت کاشی پرسپولیس یزد: نشانی نمایشگاه مرکزی، دو خط ثابت، تماس با دو کارشناس فروش و دانلود مخاطبان. بر پایهٔ Next.js App Router و @base-ui/react؛ بدون دیتابیس.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+منبع داده: `config/business.ts`. مسیر صفحه `/` و دانلود مخاطبان `/contacts.vcf`. مستندات کامل و منشأ محتوا: [docs/README.md](docs/README.md)، [تحلیل](docs/business-card-analysis.md)، [نتایج واقعی بررسی](docs/qa-checklist.md).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm exec tsc --noEmit
+pnpm lint
+pnpm build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+ظاهر فعلی نمونهٔ اولیه است. پیش از انتشار `SITE_URL` باید مبدأ عمومی تأییدشده باشد؛ `noindex` نمونه حفظ شده و نقشه فقط جست‌وجوی نشانی است. پین دقیق و آزمون import مخاطبان در گوشی واقعی هنوز لازم‌اند. [بایگانی دعوت‌نامه](docs/archive/invitation-2026-11-15/README.md) قرارداد محصول فعال نیست.
 
-## Learn More
+[ایده و قرارداد Drawer](docs/business-card-drawers.md) · [بررسی این نسخه](docs/qa-drawers.md).
 
-To learn more about Next.js, take a look at the following resources:
+فونت فعلی [PeydaWeb محلی](docs/peyda-installation.md) است؛ تنها چهار وزن WOFF2 مصرفی با next/font/local بارگذاری می‌شوند.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## خروجی استاتیک و Docker
 
-## Deploy on Vercel
+`pnpm build` خروجی مستقل را در `out/` می‌سازد؛ `next start` برای این حالت قابل استفاده نیست. برای تولید metadata عمومی، مبدأ تأییدشده را هنگام build تنظیم کنید.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+docker build --build-arg SITE_URL=https://example.com -t zamanian-card .
+docker run --rm -p 8080:80 zamanian-card
+curl -i http://localhost:8080/server-info
+curl -I http://localhost:8080/
+curl -I http://localhost:8080/contacts.vcf
+curl -I http://localhost:8080/missing.js
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+آدرس نمونه را با مبدأ واقعی جایگزین کنید. فایل‌ها با `ghcr.io/gecut/nginx/cdn:2.0.0` از `/data` سرو می‌شوند. HTML، فایل‌های معمول، تصاویر و JSON تا ۳۰۰ ثانیه cache می‌شوند؛ خطاها `no-store` و service workerها `no-cache` هستند. فشرده‌سازی خاموش است. تنظیم TLS و cache/purge لبهٔ CDN به زیرساخت انتشار مربوط است. آزمایش‌های اجرایی و محدودیت‌ها در [معماری](docs/architecture.md) ثبت شده‌اند.
+
+## GitHub Actions و GHCR
+
+[Workflow انتشار](.github/workflows/publish-image.yml) با push مرتبط روی `main` یا اجرای دستی، ایمیج `linux/amd64` را در `ghcr.io/<owner>/<repository>` با تگ‌های `latest` و `sha-<commit>` منتشر می‌کند. یک job، کش لایه‌های Docker، حذف اجرای صرفاً مستندات و لغو اجرای قدیمی، مصرف زمان را محدود می‌کنند. `SITE_URL` را در Actions Variables روی مبدأ عمومی تأییدشده تنظیم کنید؛ ورود GHCR از `GITHUB_TOKEN` خودکار استفاده می‌کند. [راهنمای تنظیم و نتایج واقعی](docs/ci-ghcr.md).
+
+# vc.persianpartshop.ir
