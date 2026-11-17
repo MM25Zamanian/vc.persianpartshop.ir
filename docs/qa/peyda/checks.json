@@ -1,0 +1,303 @@
+{
+  "initialFonts": {
+    "faces": [
+      {
+        "display": "swap",
+        "family": "peyda",
+        "status": "loaded",
+        "weight": "400"
+      },
+      {
+        "display": "swap",
+        "family": "peyda",
+        "status": "loaded",
+        "weight": "600"
+      },
+      {
+        "display": "swap",
+        "family": "peyda",
+        "status": "loaded",
+        "weight": "800"
+      },
+      {
+        "display": "auto",
+        "family": "peyda Fallback",
+        "status": "unloaded",
+        "weight": "normal"
+      },
+      {
+        "display": "swap",
+        "family": "peydaBold",
+        "status": "unloaded",
+        "weight": "700"
+      },
+      {
+        "display": "auto",
+        "family": "peydaBold Fallback",
+        "status": "unloaded",
+        "weight": "normal"
+      }
+    ],
+    "family": "peyda, \"peyda Fallback\", Tahoma, sans-serif",
+    "layoutShifts": [],
+    "preloads": [
+      {
+        "crossOrigin": "anonymous",
+        "href": "http://localhost:3107/_next/static/media/peyda_400_regular-s.p.3hzvhar61-2kg.woff2",
+        "type": "font/woff2"
+      },
+      {
+        "crossOrigin": "anonymous",
+        "href": "http://localhost:3107/_next/static/media/peyda_600_semibold-s.p.03wa_pprzdgtv.woff2",
+        "type": "font/woff2"
+      },
+      {
+        "crossOrigin": "anonymous",
+        "href": "http://localhost:3107/_next/static/media/peyda_800_extrabold-s.p.2ggr7nnlw_162.woff2",
+        "type": "font/woff2"
+      }
+    ],
+    "requests": [
+      {
+        "bytes": 28584,
+        "initiator": "link",
+        "url": "http://localhost:3107/_next/static/media/peyda_400_regular-s.p.3hzvhar61-2kg.woff2"
+      },
+      {
+        "bytes": 28748,
+        "initiator": "link",
+        "url": "http://localhost:3107/_next/static/media/peyda_600_semibold-s.p.03wa_pprzdgtv.woff2"
+      },
+      {
+        "bytes": 28776,
+        "initiator": "link",
+        "url": "http://localhost:3107/_next/static/media/peyda_800_extrabold-s.p.2ggr7nnlw_162.woff2"
+      }
+    ],
+    "synthesis": "none"
+  },
+  "viewports": [
+    {
+      "cardCenter": 160,
+      "cardHeight": 240,
+      "cardScrollHeight": 240,
+      "document": [
+        320,
+        568
+      ],
+      "h1": {
+        "family": "peyda, \"peyda Fallback\", Tahoma, sans-serif",
+        "weight": "800"
+      },
+      "viewport": [
+        320,
+        568
+      ]
+    },
+    {
+      "cardCenter": 180,
+      "cardHeight": 240,
+      "cardScrollHeight": 240,
+      "document": [
+        360,
+        640
+      ],
+      "h1": {
+        "family": "peyda, \"peyda Fallback\", Tahoma, sans-serif",
+        "weight": "800"
+      },
+      "viewport": [
+        360,
+        640
+      ]
+    },
+    {
+      "cardCenter": 195,
+      "cardHeight": 240,
+      "cardScrollHeight": 240,
+      "document": [
+        390,
+        844
+      ],
+      "h1": {
+        "family": "peyda, \"peyda Fallback\", Tahoma, sans-serif",
+        "weight": "800"
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "cardCenter": 215,
+      "cardHeight": 248,
+      "cardScrollHeight": 248,
+      "document": [
+        430,
+        932
+      ],
+      "h1": {
+        "family": "peyda, \"peyda Fallback\", Tahoma, sans-serif",
+        "weight": "800"
+      },
+      "viewport": [
+        430,
+        932
+      ]
+    },
+    {
+      "cardCenter": 384,
+      "cardHeight": 346,
+      "cardScrollHeight": 346,
+      "document": [
+        768,
+        1024
+      ],
+      "h1": {
+        "family": "peyda, \"peyda Fallback\", Tahoma, sans-serif",
+        "weight": "800"
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "cardCenter": 720,
+      "cardHeight": 346,
+      "cardScrollHeight": 346,
+      "document": [
+        1440,
+        900
+      ],
+      "h1": {
+        "family": "peyda, \"peyda Fallback\", Tahoma, sans-serif",
+        "weight": "800"
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    }
+  ],
+  "panels": [
+    {
+      "bodyScrollWidth": 390,
+      "bodyWidth": 390,
+      "boldLoaded": true,
+      "family": "peydaBold, \"peydaBold Fallback\", peyda, \"peyda Fallback\", Tahoma, sans-serif",
+      "links": [
+        {
+          "height": 97.1875,
+          "href": "tel:+985136511717"
+        },
+        {
+          "height": 97.1875,
+          "href": "tel:+985136511818"
+        }
+      ],
+      "title": "تماس با نمایشگاه",
+      "top": 494.03125,
+      "weight": "700",
+      "focusRestored": true
+    },
+    {
+      "bodyScrollWidth": 390,
+      "bodyWidth": 390,
+      "boldLoaded": true,
+      "family": "peydaBold, \"peydaBold Fallback\", peyda, \"peyda Fallback\", Tahoma, sans-serif",
+      "links": [
+        {
+          "height": 97.1875,
+          "href": "tel:+989156201162"
+        },
+        {
+          "height": 97.1875,
+          "href": "tel:+989101154220"
+        }
+      ],
+      "title": "کارشناسان فروش",
+      "top": 494.03125,
+      "weight": "700",
+      "focusRestored": true
+    },
+    {
+      "bodyScrollWidth": 390,
+      "bodyWidth": 390,
+      "boldLoaded": true,
+      "family": "peydaBold, \"peydaBold Fallback\", peyda, \"peyda Fallback\", Tahoma, sans-serif",
+      "links": [
+        {
+          "height": 49.1875,
+          "href": "https://www.google.com/maps/search/?api=1&query=%D9%85%DB%8C%D8%AF%D8%A7%D9%86+%D8%B4%D9%87%DB%8C%D8%AF+%D9%81%D9%87%D9%85%DB%8C%D8%AF%D9%87+%D8%A8%D9%87+%D8%B3%D9%85%D8%AA+%D9%85%DB%8C%D8%AF%D8%A7%D9%86+%D9%85%D8%B9%D8%B1%D8%A7%D8%AC%D8%8C+%D8%A8%DB%8C%D9%86+%D8%AA%D9%88%D8%B3+%DB%B3%DB%B3+%D9%88+%DB%B3%DB%B3%2F%DB%B1%D8%8C+%D9%81%D8%B1%D9%88%D8%B4%DA%AF%D8%A7%D9%87+%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3"
+        }
+      ],
+      "title": "نشانی نمایشگاه مرکزی",
+      "top": 552.21875,
+      "weight": "700",
+      "focusRestored": true
+    },
+    {
+      "bodyScrollWidth": 390,
+      "bodyWidth": 390,
+      "boldLoaded": true,
+      "family": "peydaBold, \"peydaBold Fallback\", peyda, \"peyda Fallback\", Tahoma, sans-serif",
+      "links": [
+        {
+          "height": 49.1875,
+          "href": "/contacts.vcf"
+        }
+      ],
+      "title": "ذخیرهٔ مخاطبان",
+      "top": 344.375,
+      "weight": "700",
+      "focusRestored": true
+    }
+  ],
+  "afterDrawerFonts": {
+    "preloads": 3,
+    "requests": [
+      "http://localhost:3107/_next/static/media/peyda_400_regular-s.p.3hzvhar61-2kg.woff2",
+      "http://localhost:3107/_next/static/media/peyda_600_semibold-s.p.03wa_pprzdgtv.woff2",
+      "http://localhost:3107/_next/static/media/peyda_800_extrabold-s.p.2ggr7nnlw_162.woff2",
+      "http://localhost:3107/_next/static/media/peyda_700_bold-s.3fkg7huwq6vcf.woff2"
+    ]
+  },
+  "largeTypeClosed": {
+    "card": 613,
+    "cardScroll": 613,
+    "overlap": false,
+    "width": 320
+  },
+  "largeTypePanel": {
+    "actionBottom": 482.078125,
+    "actionTop": 282.90625,
+    "bodyBottom": 568,
+    "bodyTop": 197.59375,
+    "bodyWidth": 320,
+    "closeTop": 94.796875,
+    "scrollWidth": 320
+  },
+  "fontHeaders": [
+    {
+      "url": "http://localhost:3107/_next/static/media/peyda_400_regular-s.p.3hzvhar61-2kg.woff2",
+      "status": 200,
+      "type": "font/woff2",
+      "cache": "public, max-age=31536000, immutable"
+    },
+    {
+      "url": "http://localhost:3107/_next/static/media/peyda_600_semibold-s.p.03wa_pprzdgtv.woff2",
+      "status": 200,
+      "type": "font/woff2",
+      "cache": "public, max-age=31536000, immutable"
+    },
+    {
+      "url": "http://localhost:3107/_next/static/media/peyda_800_extrabold-s.p.2ggr7nnlw_162.woff2",
+      "status": 200,
+      "type": "font/woff2",
+      "cache": "public, max-age=31536000, immutable"
+    }
+  ],
+  "errors": "",
+  "console": ""
+}

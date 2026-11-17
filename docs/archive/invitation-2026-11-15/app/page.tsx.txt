@@ -1,0 +1,59 @@
+import Image from "next/image";
+import { Navigation, Phone } from "lucide-react";
+import { CalendarDateIcon } from "@solar-icons/react/linear/calendar-date";
+import { ClockCircleIcon } from "@solar-icons/react/linear/clock-circle";
+import { MapPointIcon } from "@solar-icons/react/linear/map-point";
+import { event } from "@/config/event";
+import { ProgressiveBlur } from "./_progressive-blur";
+
+export default function Home() {
+  return (
+    <main className="invitation">
+      <div className="material-wings" aria-hidden="true">
+        <div className="material-wing material-wing-blue"><Image src="/assets/materials/dima-scene.webp" alt="" fill sizes="(max-width: 620px) 240px, 420px" /></div>
+        <div className="material-wing material-wing-black"><Image src="/assets/materials/mallorca-scene.webp" alt="" fill sizes="(max-width: 620px) 240px, 420px" /></div>
+      </div>
+      <ProgressiveBlur />
+      <article className="invitation-card" aria-labelledby="invitation-title">
+        <header className="brand">
+          <Image className="brand-logo" src="/assets/persepolis-logo.png" alt={event.brand} width={535} height={632} sizes="76px" preload />
+          <p className="company" aria-label={event.company}><span aria-hidden="true">بازرگـانی زمـانیان</span></p>
+        </header>
+
+        <section className="intro">
+          <p className="invitation-label">{event.invitationLabel}</p>
+          <h1 id="invitation-title"><span>{event.titleLead}</span>{event.titleMain}</h1>
+          <p className="message">{event.message}</p>
+        </section>
+
+        <div className="event-group">
+        <section className="event-details" aria-label="زمان و مکان نمایشگاه">
+          <dl className="schedule">
+            <div><dt><CalendarDateIcon size={16} aria-hidden="true" />تاریخ برگزاری</dt><dd>{event.date}</dd></div>
+            <div><dt><ClockCircleIcon size={16} aria-hidden="true" />ساعت بازدید</dt><dd>{event.hours}</dd></div>
+          </dl>
+          <div className="venue">
+            <p className="venue-label"><MapPointIcon size={16} aria-hidden="true" />محل برگزاری</p>
+            <p>{event.venue}، <strong>غرفه {event.booth}</strong></p>
+          </div>
+          <p className="visit-note">{event.privateDayNote}</p>
+        </section>
+
+        </div>
+
+        <div className="contact-group">
+        <nav className="actions" aria-label="مسیریابی و تماس">
+          <a className="action action-primary" href={event.mapUrl} target="_blank" rel="noopener noreferrer"><Navigation size={16} aria-hidden="true" /><span>مسیریابی نمایشگاه</span></a>
+          <a className="action action-secondary" href={`tel:${event.mobile}`}><Phone size={15} aria-hidden="true" /><span>تماس با ما</span></a>
+        </nav>
+
+        <footer className="contacts" dir="ltr">
+          <a href={`tel:${event.mobile}`} aria-label={`تلفن همراه ${event.mobile}`}>{event.mobile}</a>
+          <span aria-hidden="true" />
+          <a href={`tel:${event.landline}`} aria-label={`تلفن ثابت ${event.landline}`}>{event.landline}</a>
+        </footer>
+        </div>
+      </article>
+    </main>
+  );
+}

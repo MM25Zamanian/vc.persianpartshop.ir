@@ -1,0 +1,29 @@
+[
+  {
+    "cardHeight": 240,
+    "contentHeight": 240,
+    "images": true,
+    "logoOffset": 0,
+    "scroll": 320,
+    "titleOffset": 0,
+    "width": 320
+  },
+  {
+    "cardHeight": 240,
+    "contentHeight": 240,
+    "images": true,
+    "logoOffset": 0,
+    "scroll": 390,
+    "titleOffset": 0,
+    "width": 390
+  },
+  {
+    "cardHeight": 346,
+    "contentHeight": 346,
+    "images": true,
+    "logoOffset": 0,
+    "scroll": 1440,
+    "titleOffset": 0,
+    "width": 1440
+  }
+]

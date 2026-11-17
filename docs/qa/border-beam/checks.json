@@ -1,0 +1,47 @@
+{
+  "viewports": [
+    {
+      "card": 240,
+      "content": 240,
+      "iteration": "1",
+      "mask": "exclude, exclude",
+      "offset": "25%",
+      "oldLine": "none",
+      "overflow": "visible",
+      "pointer": "none",
+      "scroll": 320,
+      "width": 320
+    },
+    {
+      "card": 240,
+      "content": 240,
+      "iteration": "1",
+      "mask": "exclude, exclude",
+      "offset": "25%",
+      "oldLine": "none",
+      "overflow": "visible",
+      "pointer": "none",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "card": 346,
+      "content": 346,
+      "iteration": "1",
+      "mask": "exclude, exclude",
+      "offset": "25%",
+      "oldLine": "none",
+      "overflow": "visible",
+      "pointer": "none",
+      "scroll": 1440,
+      "width": 1440
+    }
+  ],
+  "reducedMotion": {
+    "animations": 0,
+    "display": "none",
+    "reduce": true
+  },
+  "drawer": true,
+  "errors": ""
+}

@@ -1,0 +1,249 @@
+{
+  "closed": [
+    {
+      "card": {
+        "center": 160,
+        "height": 240,
+        "width": 280,
+        "x": 20,
+        "y": 101.296875
+      },
+      "controls": [
+        {
+          "height": 93.390625,
+          "name": "تماس با نمایشگاه"
+        },
+        {
+          "height": 93.390625,
+          "name": "کارشناسان فروش"
+        },
+        {
+          "height": 93.390625,
+          "name": "نشانی نمایشگاه مرکزی"
+        },
+        {
+          "height": 93.390625,
+          "name": "ذخیرهٔ مخاطبان"
+        }
+      ],
+      "document": [
+        320,
+        568
+      ],
+      "font": "loaded",
+      "viewport": [
+        320,
+        568
+      ]
+    },
+    {
+      "card": {
+        "center": 195,
+        "height": 240,
+        "width": 350,
+        "x": 20,
+        "y": 239.296875
+      },
+      "controls": [
+        {
+          "height": 93.390625,
+          "name": "تماس با نمایشگاه"
+        },
+        {
+          "height": 93.390625,
+          "name": "کارشناسان فروش"
+        },
+        {
+          "height": 93.390625,
+          "name": "نشانی نمایشگاه مرکزی"
+        },
+        {
+          "height": 93.390625,
+          "name": "ذخیرهٔ مخاطبان"
+        }
+      ],
+      "document": [
+        390,
+        844
+      ],
+      "font": "loaded",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "card": {
+        "center": 720,
+        "height": 345.59375,
+        "width": 544,
+        "x": 448,
+        "y": 214.5
+      },
+      "controls": [
+        {
+          "height": 93.390625,
+          "name": "تماس با نمایشگاه"
+        },
+        {
+          "height": 93.390625,
+          "name": "کارشناسان فروش"
+        },
+        {
+          "height": 93.390625,
+          "name": "نشانی نمایشگاه مرکزی"
+        },
+        {
+          "height": 93.390625,
+          "name": "ذخیرهٔ مخاطبان"
+        }
+      ],
+      "document": [
+        1440,
+        900
+      ],
+      "font": "loaded",
+      "viewport": [
+        1440,
+        900
+      ]
+    }
+  ],
+  "panels": [
+    {
+      "key": "phones",
+      "bodyScrollWidth": 390,
+      "bodyWidth": 390,
+      "content": "تماس با نمایشگاه\n\nبرای ارتباط با نمایشگاه مرکزی، یکی از خطوط زیر را انتخاب کنید.\n\nخط اول نمایشگاه\n۰۵۱ ۳۶۵۱ ۱۷۱۷\nخط دوم نمایشگاه\n۰۵۱ ۳۶۵۱ ۱۸۱۸",
+      "description": "برای ارتباط با نمایشگاه مرکزی، یکی از خطوط زیر را انتخاب کنید.",
+      "dialog": {
+        "bottom": 876,
+        "left": 0,
+        "right": 390,
+        "top": 502.03125
+      },
+      "focused": "تماس با نمایشگاه",
+      "links": [
+        {
+          "height": 97.1875,
+          "href": "tel:+985136511717",
+          "text": "خط اول نمایشگاه۰۵۱ ۳۶۵۱ ۱۷۱۷"
+        },
+        {
+          "height": 97.1875,
+          "href": "tel:+985136511818",
+          "text": "خط دوم نمایشگاه۰۵۱ ۳۶۵۱ ۱۸۱۸"
+        }
+      ],
+      "title": "تماس با نمایشگاه",
+      "focusRestored": true
+    },
+    {
+      "key": "sales",
+      "bodyScrollWidth": 390,
+      "bodyWidth": 390,
+      "content": "کارشناسان فروش\n\nبرای گفت‌وگو با کارشناس فروش، نام موردنظر را انتخاب کنید.\n\nسرکار خانم آزما\n۰۹۱۵ ۶۲۰ ۱۱۶۲\nآقای مهدی مهربان\n۰۹۱۰ ۱۱۵ ۴۲۲۰",
+      "description": "برای گفت‌وگو با کارشناس فروش، نام موردنظر را انتخاب کنید.",
+      "dialog": {
+        "bottom": 876,
+        "left": 0,
+        "right": 390,
+        "top": 502.03125
+      },
+      "focused": "کارشناسان فروش",
+      "links": [
+        {
+          "height": 97.1875,
+          "href": "tel:+989156201162",
+          "text": "سرکار خانم آزما۰۹۱۵ ۶۲۰ ۱۱۶۲"
+        },
+        {
+          "height": 97.1875,
+          "href": "tel:+989101154220",
+          "text": "آقای مهدی مهربان۰۹۱۰ ۱۱۵ ۴۲۲۰"
+        }
+      ],
+      "title": "کارشناسان فروش",
+      "focusRestored": true
+    },
+    {
+      "key": "address",
+      "bodyScrollWidth": 390,
+      "bodyWidth": 390,
+      "content": "نشانی نمایشگاه مرکزی\n\nبازرگانی زمانیان\n\nمیدان شهید فهمیده به سمت میدان معراج، بین توس ۳۳ و ۳۳/۱، فروشگاه پرسپولیس\nجست‌وجوی نشانی روی نقشه",
+      "description": "بازرگانی زمانیان",
+      "dialog": {
+        "bottom": 876,
+        "left": 0,
+        "right": 390,
+        "top": 560.21875
+      },
+      "focused": "نشانی نمایشگاه مرکزی",
+      "links": [
+        {
+          "height": 49.1875,
+          "href": "https://www.google.com/maps/search/?api=1&query=%D9%85%DB%8C%D8%AF%D8%A7%D9%86+%D8%B4%D9%87%DB%8C%D8%AF+%D9%81%D9%87%D9%85%DB%8C%D8%AF%D9%87+%D8%A8%D9%87+%D8%B3%D9%85%D8%AA+%D9%85%DB%8C%D8%AF%D8%A7%D9%86+%D9%85%D8%B9%D8%B1%D8%A7%D8%AC%D8%8C+%D8%A8%DB%8C%D9%86+%D8%AA%D9%88%D8%B3+%DB%B3%DB%B3+%D9%88+%DB%B3%DB%B3%2F%DB%B1%D8%8C+%D9%81%D8%B1%D9%88%D8%B4%DA%AF%D8%A7%D9%87+%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3",
+          "text": "جست‌وجوی نشانی روی نقشه"
+        }
+      ],
+      "title": "نشانی نمایشگاه مرکزی",
+      "focusRestored": true
+    },
+    {
+      "key": "save",
+      "bodyScrollWidth": 390,
+      "bodyWidth": 390,
+      "content": "ذخیرهٔ مخاطبان\n\nاطلاعات مجموعه و دو کارشناس فروش را همیشه همراه داشته باشید.\n\nبازرگانی زمانیان\nدو خط نمایشگاه مرکزی\nسرکار خانم آزما\nکارشناس فروش\nآقای مهدی مهربان\nکارشناس فروش\nدریافت و ذخیرهٔ مخاطبان\n\nفایل را باز کنید تا اطلاعات به مخاطبان گوشی اضافه شود.",
+      "description": "اطلاعات مجموعه و دو کارشناس فروش را همیشه همراه داشته باشید.",
+      "dialog": {
+        "bottom": 876,
+        "left": 0,
+        "right": 390,
+        "top": 352.375
+      },
+      "focused": "ذخیرهٔ مخاطبان",
+      "links": [
+        {
+          "height": 49.1875,
+          "href": "/contacts.vcf",
+          "text": "دریافت و ذخیرهٔ مخاطبان"
+        }
+      ],
+      "title": "ذخیرهٔ مخاطبان",
+      "focusRestored": true
+    }
+  ],
+  "closeButton": true,
+  "backdrop": true,
+  "mouseDragDismissal": true,
+  "firstTab": {
+    "label": "تماس با نمایشگاه",
+    "outline": "solid"
+  },
+  "focusTrap": true,
+  "largeTextClosed": {
+    "height": 1393,
+    "viewport": 320,
+    "width": 320
+  },
+  "largeTextIntegrity": {
+    "cardHeight": 613,
+    "cardScrollHeight": 613,
+    "labelOverlap": false
+  },
+  "largeTextPanel": {
+    "clientHeight": 386,
+    "clientWidth": 320,
+    "closeTop": 94.796875,
+    "scrollHeight": 1266,
+    "scrollWidth": 320,
+    "top": 32,
+    "width": 320
+  },
+  "reducedMotion": {
+    "animations": 0,
+    "transition": "0s"
+  },
+  "errors": "",
+  "console": ""
+}

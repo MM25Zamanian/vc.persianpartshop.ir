@@ -1,0 +1,15 @@
+{
+  "browserDownload": true,
+  "records": 3,
+  "phoneOwnership": true,
+  "maxLineBytes": 75,
+  "noscriptFourPhoneLinks": true,
+  "largeTextDownloadVisible": {
+    "bodyBottom": 568,
+    "bodyScrollTop": 745,
+    "bodyTop": 181.59375,
+    "bottom": 474.078125,
+    "top": 274.90625,
+    "viewport": 568
+  }
+}

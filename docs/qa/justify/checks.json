@@ -1,0 +1,91 @@
+{
+  "viewports": [
+    {
+      "cardHeight": 259,
+      "company": {
+        "left": 44,
+        "right": 156,
+        "top": 116.03125
+      },
+      "images": true,
+      "logo": {
+        "left": 172,
+        "right": 276,
+        "top": 116.03125
+      },
+      "scrollHeight": 259,
+      "viewport": [
+        320,
+        568
+      ],
+      "width": 320
+    },
+    {
+      "cardHeight": 240,
+      "company": {
+        "left": 44,
+        "right": 226,
+        "top": 263.296875
+      },
+      "images": true,
+      "logo": {
+        "left": 242,
+        "right": 346,
+        "top": 263.296875
+      },
+      "scrollHeight": 240,
+      "viewport": [
+        390,
+        844
+      ],
+      "width": 390
+    },
+    {
+      "cardHeight": 346,
+      "company": {
+        "left": 144,
+        "right": 464,
+        "top": 308.5
+      },
+      "images": true,
+      "logo": {
+        "left": 480,
+        "right": 624,
+        "top": 308.5
+      },
+      "scrollHeight": 346,
+      "viewport": [
+        768,
+        1024
+      ],
+      "width": 768
+    },
+    {
+      "cardHeight": 346,
+      "company": {
+        "left": 480,
+        "right": 800,
+        "top": 246.5
+      },
+      "images": true,
+      "logo": {
+        "left": 816,
+        "right": 960,
+        "top": 246.5
+      },
+      "scrollHeight": 346,
+      "viewport": [
+        1440,
+        900
+      ],
+      "width": 1440
+    }
+  ],
+  "largeText": {
+    "height": 823,
+    "scrollHeight": 823,
+    "width": 320
+  },
+  "fourDrawers": true,
+  "errors": ""
+}

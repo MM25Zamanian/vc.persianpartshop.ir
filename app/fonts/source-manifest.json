@@ -1,0 +1,33 @@
+{
+  "family": "PeydaWeb",
+  "embeddedVersion": "2.000",
+  "publisher": "https://fontiran.com/fonts/peyda",
+  "sourceCollection": "nexload-e-commerce/apps/web/public/fonts",
+  "totalBytes": 112888,
+  "files": [
+    {
+      "file": "peyda-400-regular.woff2",
+      "weight": 400,
+      "bytes": 28584,
+      "sha256": "702a9972333af9675c4fdb9ac54dc57c5bf264c1ddd8e5e30d4801f2fd9b7c36"
+    },
+    {
+      "file": "peyda-600-semibold.woff2",
+      "weight": 600,
+      "bytes": 28748,
+      "sha256": "f42c020b492225eebef887b8325017e0cf0a2e3315d383095701bc0123136fa1"
+    },
+    {
+      "file": "peyda-700-bold.woff2",
+      "weight": 700,
+      "bytes": 26780,
+      "sha256": "5004b70f44aae102b5e1e2bcc02c834f90a7dd85c4ca8778e3ef6ef56cd082ba"
+    },
+    {
+      "file": "peyda-800-extrabold.woff2",
+      "weight": 800,
+      "bytes": 28776,
+      "sha256": "f272586076d9fd8c5bf78e2936d382feb4d10d430175e807be5ce94b3fb199ce"
+    }
+  ]
+}

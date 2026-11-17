@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-15T11:51:31.266210+00:00",
+  "title": "Design System: بازرگانی زمانیان",
+  "extensions": {
+    "colorMeta": {
+      "red": {
+        "role": "primary",
+        "displayName": "Red",
+        "tonalRamp": [
+          "oklch(15.0% 0.0906 28.24)",
+          "oklch(26.4% 0.1594 28.24)",
+          "oklch(37.9% 0.2288 28.24)",
+          "oklch(49.3% 0.2415 28.24)",
+          "oklch(60.7% 0.2415 28.24)",
+          "oklch(72.1% 0.2246 28.24)",
+          "oklch(83.6% 0.1320 28.24)",
+          "oklch(95.0% 0.0403 28.24)"
+        ]
+      },
+      "deep-red": {
+        "role": "primary",
+        "displayName": "Deep Red",
+        "tonalRamp": [
+          "oklch(15.0% 0.0702 26.84)",
+          "oklch(26.4% 0.1236 26.84)",
+          "oklch(37.9% 0.1774 26.84)",
+          "oklch(49.3% 0.1873 26.84)",
+          "oklch(60.7% 0.1873 26.84)",
+          "oklch(72.1% 0.1742 26.84)",
+          "oklch(83.6% 0.1024 26.84)",
+          "oklch(95.0% 0.0312 26.84)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "tonalRamp": [
+          "oklch(15.0% 0.0013 67.78)",
+          "oklch(26.4% 0.0023 67.78)",
+          "oklch(37.9% 0.0032 67.78)",
+          "oklch(49.3% 0.0034 67.78)",
+          "oklch(60.7% 0.0034 67.78)",
+          "oklch(72.1% 0.0032 67.78)",
+          "oklch(83.6% 0.0019 67.78)",
+          "oklch(95.0% 0.0006 67.78)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "tonalRamp": [
+          "oklch(15.0% 0.0000 0.00)",
+          "oklch(26.4% 0.0000 0.00)",
+          "oklch(37.9% 0.0000 0.00)",
+          "oklch(49.3% 0.0000 0.00)",
+          "oklch(60.7% 0.0000 0.00)",
+          "oklch(72.1% 0.0000 0.00)",
+          "oklch(83.6% 0.0000 0.00)",
+          "oklch(95.0% 0.0000 0.00)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15.0% 0.0011 17.34)",
+          "oklch(26.4% 0.0019 17.34)",
+          "oklch(37.9% 0.0028 17.34)",
+          "oklch(49.3% 0.0030 17.34)",
+          "oklch(60.7% 0.0030 17.34)",
+          "oklch(72.1% 0.0027 17.34)",
+          "oklch(83.6% 0.0016 17.34)",
+          "oklch(95.0% 0.0005 17.34)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "oklch(15.0% 0.0059 53.14)",
+          "oklch(26.4% 0.0104 53.14)",
+          "oklch(37.9% 0.0149 53.14)",
+          "oklch(49.3% 0.0158 53.14)",
+          "oklch(60.7% 0.0158 53.14)",
+          "oklch(72.1% 0.0147 53.14)",
+          "oklch(83.6% 0.0086 53.14)",
+          "oklch(95.0% 0.0026 53.14)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "tonalRamp": [
+          "oklch(15.0% 0.0045 51.30)",
+          "oklch(26.4% 0.0080 51.30)",
+          "oklch(37.9% 0.0115 51.30)",
+          "oklch(49.3% 0.0121 51.30)",
+          "oklch(60.7% 0.0121 51.30)",
+          "oklch(72.1% 0.0112 51.30)",
+          "oklch(83.6% 0.0066 51.30)",
+          "oklch(95.0% 0.0020 51.30)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Company H1; intentional 20–30px fluid endpoints."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Drawer headings; intentional 18px."
+      },
+      "contact-name": {
+        "displayName": "Contact Name",
+        "purpose": "Contact names and showroom-line labels."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Complete showroom address."
+      },
+      "description": {
+        "displayName": "Description",
+        "purpose": "Representation line and drawer explanations."
+      },
+      "phone": {
+        "displayName": "Phone",
+        "purpose": "Visible Persian telephone numbers; intentional 18px."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Four named trigger captions; intentional 13px."
+      },
+      "action": {
+        "displayName": "Action",
+        "purpose": "Map/download primary action."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Import helper note; intentional 13px."
+      },
+      "saved-caption": {
+        "displayName": "Saved Caption",
+        "purpose": "Roles in the saved-contact summary."
+      }
+    },
+    "shadows": [
+      {
+        "name": "card-shadow",
+        "value": "0 2px 3px -1px rgb(70 49 36 / 9%), 0 10px 20px -12px rgb(70 49 36 / 20%), 0 30px 60px -28px rgb(70 49 36 / 24%)",
+        "purpose": "Physical card face raised above the warm paper canvas."
+      },
+      {
+        "name": "sheet-shadow",
+        "value": "0 -8px 40px rgb(41 39 39 / 8%)",
+        "purpose": "Upward separation of the bottom drawer."
+      }
+    ],
+    "motion": [
+      {
+        "name": "duration-sheet",
+        "value": "350ms",
+        "purpose": "User-triggered drawer transform and backdrop opacity transitions; 0ms during swiping or reduced motion."
+      },
+      {
+        "name": "ease-sheet",
+        "value": "cubic-bezier(0.32, 0.72, 0, 1)",
+        "purpose": "Drawer transform and backdrop opacity easing."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "logo-and-card-padding",
+        "value": "640px"
+      }
+    ],
+    "borderBeam": {
+      "reference": "https://magicui.design/r/border-beam.json",
+      "implementation": "Magic UI gradient-square motion-path technique with motion/react",
+      "beams": 4,
+      "duration": "16s",
+      "iterations": "infinite",
+      "size": "220px",
+      "width": "1.25px",
+      "phaseOffsets": [
+        0,
+        25,
+        50,
+        75
+      ],
+      "reducedMotion": "Hide lights and disable Motion animation"
+    },
+    "currentActions": [
+      "ارتباط با ما",
+      "دفتر مرکزی",
+      "فروشگاه مرکزی"
+    ]
+  },
+  "components": [
+    {
+      "name": "Physical card face",
+      "kind": "card",
+      "refersTo": "card-face",
+      "description": "Centered surface/type preview; the live card additionally shows the complete original logo.",
+      "html": "<article class=\"ds-face\" dir=\"rtl\"><h1>بازرگانی زمانیان</h1><p>نمایندگی انحصاری شرکت کاشی پرسپولیس یزد</p></article>",
+      "css": ".ds-face{font-family:var(--font-peyda),Tahoma,sans-serif;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1rem;min-height:15rem;padding:1.5rem;border-radius:1rem;background:white;color:var(--ink);text-align:center;box-shadow:var(--card-shadow)}.ds-face h1{font-size:clamp(1.375rem,4.5vw,1.875rem);line-height:1.6}.ds-face p{font-size:.875rem;line-height:1.9}"
+    },
+    {
+      "name": "Category trigger",
+      "kind": "button",
+      "refersTo": "card-action",
+      "description": "One of four named Base UI drawer triggers; static preview has no drawer controller.",
+      "html": "<button class=\"ds-trigger\" dir=\"rtl\" type=\"button\" aria-label=\"تماس با نمایشگاه\"><span class=\"ds-trigger-icon\" aria-hidden=\"true\"><svg aria-hidden=\"true\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"><path d=\"M13.5 2.00006C13.5 2.00006 15.8335 2.21219 18.8033 5.18204C21.7731 8.15189 21.9853 10.4853 21.9853 10.4853\" stroke-linecap=\"round\" stroke=\"currentColor\"/><path d=\"M14.207 5.53564C14.207 5.53564 15.197 5.81849 16.6819 7.30341C18.1668 8.78834 18.4497 9.77829 18.4497 9.77829\" stroke-linecap=\"round\" stroke=\"currentColor\"/><path d=\"M19.0011 20.254C18.6399 20.6343 18.1917 20.9122 17.6763 20.9631C16.0468 21.1239 12.0621 20.9462 7.81536 16.4752C3.81072 12.259 3.09304 8.64546 3.00289 6.96594C2.96765 6.30945 3.25823 5.71766 3.69185 5.26114L5.26145 3.60864C6.13596 2.68795 7.61028 2.8305 8.37326 3.90961L9.63424 5.6931C10.2507 6.56497 10.1841 7.75924 9.47752 8.50311L9.1907 8.80507C9.1907 8.80507 8.10812 9.94484 11.0631 13.0559C14.0181 16.167 15.1007 15.0272 15.1007 15.0272L15.5562 14.5477C16.1858 13.8848 17.1672 13.7486 17.9728 14.2123L19.8833 15.312C21.1102 16.0182 21.3806 17.7489 20.4217 18.7584L19.0011 20.254Z\" stroke-linecap=\"round\" stroke=\"currentColor\"/></svg></span><span>تماس</span></button>",
+      "css": ".ds-trigger{font-family:var(--font-peyda),Tahoma,sans-serif;color:var(--ink);cursor:pointer;min-width:0;min-height:80px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:.625rem;padding:var(--space-xs);border:0;border-radius:var(--radius-control);background:transparent;font-size:.8125rem;font-weight:600;line-height:1.8;text-wrap:balance}.ds-trigger-icon{display:grid;place-items:center;width:52px;height:52px;border:1px solid var(--line);border-radius:var(--radius-card);color:var(--deep-red);background:var(--white)}.ds-trigger:hover .ds-trigger-icon,.ds-trigger:active .ds-trigger-icon,.ds-trigger[data-popup-open] .ds-trigger-icon{border-color:var(--deep-red)}.ds-trigger:hover,.ds-trigger:active{color:var(--deep-red)}.ds-trigger:focus-visible{outline:2px solid var(--deep-red);outline-offset:4px}"
+    },
+    {
+      "name": "Bottom drawer surface",
+      "kind": "custom",
+      "refersTo": "drawer-popup",
+      "description": "Static shell preview; Base UI supplies portal, modal state, close/focus/scroll handling and swipe runtime in the application.",
+      "html": "<section class=\"ds-sheet\" dir=\"rtl\" role=\"dialog\" aria-labelledby=\"ds-sheet-title\" aria-describedby=\"ds-sheet-description\"><div class=\"ds-grip-area\" aria-hidden=\"true\"><div class=\"ds-grip\"></div></div><header class=\"ds-sheet-header\"><h2 class=\"ds-sheet-title\" id=\"ds-sheet-title\" tabindex=\"-1\">کارشناسان فروش</h2></header><div class=\"ds-sheet-body\"><p id=\"ds-sheet-description\">برای گفت‌وگو با کارشناس فروش، نام موردنظر را انتخاب کنید.</p></div></section>",
+      "css": ".ds-sheet{font-family:var(--font-peyda),Tahoma,sans-serif;--bleed:2rem;display:flex;flex-direction:column;width:min(100%,34rem);max-height:calc(100dvh - 1rem + var(--bleed));margin-bottom:calc(-1 * var(--bleed));padding-bottom:var(--bleed);overflow:hidden;border-radius:var(--radius-sheet) var(--radius-sheet) 0 0;background:var(--white);color:var(--ink);text-align:center;box-shadow:0 -8px 40px rgb(41 39 39 / 8%);transform:translateY(var(--drawer-swipe-movement-y,0px));transition:transform var(--duration-sheet) var(--ease-sheet)}.ds-sheet[data-starting-style],.ds-sheet[data-ending-style]{transform:translateY(calc(100% - var(--bleed) + 2px))}.ds-sheet[data-swiping]{user-select:none;transition-duration:0ms}.ds-grip-area{flex:none;padding-block:12px 4px}.ds-grip{width:36px;height:4px;margin-inline:auto;border-radius:2px;background:var(--line)}.ds-sheet-header{flex:none;display:grid;grid-template-columns:44px minmax(0,1fr) 44px;align-items:center;padding-inline:var(--space-md);padding-bottom:var(--space-sm)}.ds-sheet-title{grid-column:2;grid-row:1;margin:0;font-size:1.125rem;font-weight:700;line-height:1.8}.ds-sheet-title:focus-visible{outline:2px solid var(--deep-red);outline-offset:4px}.ds-sheet-body{min-height:0;overflow-y:auto;overscroll-behavior-y:contain;padding:var(--space-sm) max(var(--space-lg),env(safe-area-inset-right)) max(var(--space-lg),env(safe-area-inset-bottom)) max(var(--space-lg),env(safe-area-inset-left))}.ds-sheet-body p{margin:0 auto var(--space-lg);max-width:26rem;font-size:.875rem;line-height:1.9;color:var(--muted);text-wrap:pretty}@media(prefers-reduced-motion:reduce){.ds-sheet{transition-duration:0ms}}"
+    },
+    {
+      "name": "Drawer close",
+      "kind": "button",
+      "refersTo": "drawer-close",
+      "description": "Explicit 44px close control; runtime close action is provided by Drawer.Close.",
+      "html": "<button class=\"ds-close\" type=\"button\" aria-label=\"بستن جزئیات\"><svg aria-hidden=\"true\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"><circle cx=\"12\" cy=\"12\" r=\"10\" stroke-linecap=\"round\" stroke=\"currentColor\"/><path d=\"M14.5 9.50002L12 12M12 12L9.5 14.5M12 12L9.49998 9.5M12 12L14.5 14.5\" stroke-linecap=\"round\" stroke=\"currentColor\"/></svg></button>",
+      "css": ".ds-close{font-family:var(--font-peyda),Tahoma,sans-serif;cursor:pointer;display:grid;place-items:center;width:44px;height:44px;border:0;border-radius:var(--radius-control);background:transparent;color:var(--muted)}.ds-close:hover,.ds-close:active{background:var(--paper);color:var(--deep-red)}.ds-close:focus-visible{outline:2px solid var(--deep-red);outline-offset:4px}"
+    },
+    {
+      "name": "Contact row",
+      "kind": "custom",
+      "refersTo": "contact-row",
+      "description": "Equal full-row native links for showroom lines and salespeople.",
+      "html": "<a class=\"ds-contact\" dir=\"rtl\" href=\"tel:+989156201162\"><span class=\"ds-contact-name\">سرکار خانم آزما</span><span class=\"ds-phone\"><bdi dir=\"ltr\">۰۹۱۵ ۶۲۰ ۱۱۶۲</bdi><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\"><path d=\"M13.5 2.00006C13.5 2.00006 15.8335 2.21219 18.8033 5.18204C21.7731 8.15189 21.9853 10.4853 21.9853 10.4853\" stroke-linecap=\"round\" stroke=\"currentColor\"/><path d=\"M14.207 5.53564C14.207 5.53564 15.197 5.81849 16.6819 7.30341C18.1668 8.78834 18.4497 9.77829 18.4497 9.77829\" stroke-linecap=\"round\" stroke=\"currentColor\"/><path d=\"M19.0011 20.254C18.6399 20.6343 18.1917 20.9122 17.6763 20.9631C16.0468 21.1239 12.0621 20.9462 7.81536 16.4752C3.81072 12.259 3.09304 8.64546 3.00289 6.96594C2.96765 6.30945 3.25823 5.71766 3.69185 5.26114L5.26145 3.60864C6.13596 2.68795 7.61028 2.8305 8.37326 3.90961L9.63424 5.6931C10.2507 6.56497 10.1841 7.75924 9.47752 8.50311L9.1907 8.80507C9.1907 8.80507 8.10812 9.94484 11.0631 13.0559C14.0181 16.167 15.1007 15.0272 15.1007 15.0272L15.5562 14.5477C16.1858 13.8848 17.1672 13.7486 17.9728 14.2123L19.8833 15.312C21.1102 16.0182 21.3806 17.7489 20.4217 18.7584L19.0011 20.254Z\" stroke-linecap=\"round\" stroke=\"currentColor\"/></svg></span></a>",
+      "css": ".ds-contact{font-family:var(--font-peyda),Tahoma,sans-serif;color:var(--ink);text-decoration:none;display:flex;flex-direction:column;align-items:center;gap:var(--space-xs);min-height:80px;padding:var(--space-md) var(--space-sm);border-radius:var(--radius-control)}.ds-contact-name{font-size:1rem;font-weight:600;line-height:1.8}.ds-phone{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:var(--space-sm);color:var(--deep-red);font-size:1.125rem;line-height:1.8}.ds-phone bdi{font-variant-numeric:tabular-nums}.ds-contact:hover,.ds-contact:active{background:var(--paper)}.ds-contact:focus-visible{outline:2px solid var(--deep-red);outline-offset:4px}"
+    },
+    {
+      "name": "Drawer primary action",
+      "kind": "button",
+      "refersTo": "drawer-primary",
+      "description": "Native map-search or vCard-download action.",
+      "html": "<a class=\"ds-primary\" dir=\"rtl\" href=\"/contacts.vcf\" download=\"zamanian-contacts.vcf\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\"><path d=\"M3 15C3 17.8284 3 19.2426 3.87868 20.1213C4.75736 21 6.17157 21 9 21H15C17.8284 21 19.2426 21 20.1213 20.1213C21 19.2426 21 17.8284 21 15\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke=\"currentColor\"/><path d=\"M12 3V16M8 11.625L12 16L16 11.625\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke=\"currentColor\"/></svg><span>دریافت و ذخیرهٔ مخاطبان</span></a>",
+      "css": ".ds-primary{font-family:var(--font-peyda),Tahoma,sans-serif;text-decoration:none;display:flex;align-items:center;justify-content:center;gap:var(--space-sm);min-height:48px;padding:.75rem var(--space-md);border-radius:var(--radius-control);background:var(--ink);color:var(--white);font-size:.875rem;font-weight:600;line-height:1.8}.ds-primary:hover,.ds-primary:active{background:var(--deep-red)}.ds-primary:focus-visible{outline:2px solid var(--deep-red);outline-offset:4px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Physical Contact Card",
+    "overview": "Simple centered physical card: original complete logo, company name and representation. The distributed experiment was rejected by the user.",
+    "keyCharacteristics": [
+      "A centered card with the complete original logo above company identity.",
+      "Original undistorted logo, warm light surfaces and restrained red.",
+      "Four icon-and-text controls with direct category drawers.",
+      "Equal contact rows and readable, isolated phone numbers.",
+      "User-triggered sheet motion with a reduced-motion alternative."
+    ],
+    "rules": [],
+    "dos": [
+      "Do preserve the original complete Persepolis mark and its aspect ratio.",
+      "Do keep the physical face centered and let its proportion-derived minimum height grow with readable text.",
+      "Do retain visible labels on all four category controls and equal sales-contact presentation.",
+      "Do isolate phone numbers in LTR `bdi` elements and preserve full address wrapping.",
+      "Do retain explicit close, focus management, internal scrolling and reduced-motion behavior.",
+      "Do distinguish this implemented proposal from final artistic approval."
+    ],
+    "donts": [
+      "Don't restore invitation copy, exhibition dates, visiting hours or booth numbers.",
+      "Don't invent business facts, social accounts, opening hours, a city or a precise map pin.",
+      "Don't replace the logo, add a fabricated portrait or use a screenshot as functional UI.",
+      "Don't add nested drawers, a card flip, automatic motion or decorative blur.",
+      "Don't clip enlarged content, restrict zoom or break Persian shaping with letter spacing."
+    ]
+  }
+}

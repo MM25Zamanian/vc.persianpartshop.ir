@@ -1,0 +1,80 @@
+import Image from "next/image";
+import { PhoneCallingIcon } from "@solar-icons/react/linear/phone-calling";
+import { MapPointIcon } from "@solar-icons/react/linear/map-point";
+import { DownloadMinimalisticIcon } from "@solar-icons/react/linear/download-minimalistic";
+import { business, mapSearchUrl } from "@/config/business";
+
+function Brand() {
+  return (
+    <header className="brand">
+      <Image className="brand-logo" src="/assets/persepolis-logo.png" alt={business.brand} width={535} height={632} sizes="88px" preload />
+      <h1 id="business-name" translate="no">{business.name}</h1>
+      <p className="brand-role">{business.representation}</p>
+    </header>
+  );
+}
+
+function Showroom() {
+  return (
+    <section className="showroom" aria-labelledby="showroom-title">
+      <h2 id="showroom-title">{business.showroom.name}</h2>
+      <address>{business.showroom.address}</address>
+      <p className="section-caption">تلفن نمایشگاه</p>
+      <div className="landlines">
+        {business.showroom.phones.map((phone, index) => (
+          <a key={phone.uri} href={`tel:${phone.uri}`} aria-label={`تماس با نمایشگاه، خط ${index + 1}، ${phone.display}`}>
+            <PhoneCallingIcon size={18} aria-hidden="true" />
+            <bdi dir="ltr">{phone.display}</bdi>
+          </a>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function SalesContacts() {
+  return (
+    <section className="sales" aria-labelledby="sales-title">
+      <h2 id="sales-title" tabIndex={-1}>کارشناسان فروش</h2>
+      <ul className="sales-list">
+        {business.sales.map((person) => (
+          <li key={person.id}>
+            <a className="sales-contact" href={`tel:${person.phone.uri}`} aria-label={`تماس با ${person.name}، ${person.phone.display}`}>
+              <span className="sales-name">{person.name}</span>
+              <span className="sales-phone">
+                <bdi dir="ltr">{person.phone.display}</bdi>
+                <PhoneCallingIcon size={18} aria-hidden="true" />
+              </span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}
+
+export default function Home() {
+  return (
+    <main className="business-page" id="main-content">
+      <article className="business-card" aria-labelledby="business-name">
+        <Brand />
+        <nav className="primary-actions" aria-label="دسترسی به تماس و نشانی">
+          <a className="action action-primary" href="#sales-title">
+            <PhoneCallingIcon size={19} aria-hidden="true" /><span>تماس با کارشناسان</span>
+          </a>
+          <a className="action action-map" href={mapSearchUrl} target="_blank" rel="noopener noreferrer">
+            <MapPointIcon size={19} aria-hidden="true" /><span>جست‌وجوی نشانی روی نقشه</span>
+          </a>
+        </nav>
+        <Showroom />
+        <SalesContacts />
+        <footer className="save-contacts">
+          <a className="save-link" href="/contacts.vcf" download="zamanian-contacts.vcf">
+            <DownloadMinimalisticIcon size={19} aria-hidden="true" /><span>ذخیرهٔ مخاطبان</span>
+          </a>
+          <p>اطلاعات مجموعه و دو کارشناس فروش</p>
+        </footer>
+      </article>
+    </main>
+  );
+}

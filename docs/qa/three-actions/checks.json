@@ -1,0 +1,37 @@
+{
+  "viewports": [
+    {
+      "buttons": [
+        "ارتباط با ما",
+        "دفتر مرکزی",
+        "فروشگاه مرکزی"
+      ],
+      "iterations": "infinite",
+      "scroll": 320,
+      "width": 320
+    },
+    {
+      "buttons": [
+        "ارتباط با ما",
+        "دفتر مرکزی",
+        "فروشگاه مرکزی"
+      ],
+      "iterations": "infinite",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "buttons": [
+        "ارتباط با ما",
+        "دفتر مرکزی",
+        "فروشگاه مرکزی"
+      ],
+      "iterations": "infinite",
+      "scroll": 1440,
+      "width": 1440
+    }
+  ],
+  "drawers": true,
+  "reducedMotion": true,
+  "errors": ""
+}

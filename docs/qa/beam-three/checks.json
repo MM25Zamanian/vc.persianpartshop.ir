@@ -1,0 +1,259 @@
+{
+  "phases": [
+    {
+      "delay": [
+        "0s",
+        "-5.33333s",
+        "-10.6667s"
+      ],
+      "duration": "16s",
+      "groups": 3,
+      "length": 1007.9814453125,
+      "rx": "15.375px",
+      "scroll": 320,
+      "tracks": 9,
+      "width": 320
+    },
+    {
+      "delay": [
+        "0s",
+        "-5.33333s",
+        "-10.6667s"
+      ],
+      "duration": "16s",
+      "groups": 3,
+      "length": 1007.9814453125,
+      "rx": "15.375px",
+      "scroll": 320,
+      "tracks": 9,
+      "width": 320
+    },
+    {
+      "delay": [
+        "0s",
+        "-5.33333s",
+        "-10.6667s"
+      ],
+      "duration": "16s",
+      "groups": 3,
+      "length": 1007.9814453125,
+      "rx": "15.375px",
+      "scroll": 320,
+      "tracks": 9,
+      "width": 320
+    },
+    {
+      "delay": [
+        "0s",
+        "-5.33333s",
+        "-10.6667s"
+      ],
+      "duration": "16s",
+      "groups": 3,
+      "length": 1007.9814453125,
+      "rx": "15.375px",
+      "scroll": 320,
+      "tracks": 9,
+      "width": 320
+    },
+    {
+      "delay": [
+        "0s",
+        "-5.33333s",
+        "-10.6667s"
+      ],
+      "duration": "16s",
+      "groups": 3,
+      "length": 1007.9814453125,
+      "rx": "15.375px",
+      "scroll": 320,
+      "tracks": 9,
+      "width": 320
+    },
+    {
+      "delay": [
+        "0s",
+        "-5.33333s",
+        "-10.6667s"
+      ],
+      "duration": "16s",
+      "groups": 3,
+      "length": 1007.9814453125,
+      "rx": "15.375px",
+      "scroll": 320,
+      "tracks": 9,
+      "width": 320
+    },
+    {
+      "delay": [
+        "0s",
+        "-5.33333s",
+        "-10.6667s"
+      ],
+      "duration": "16s",
+      "groups": 3,
+      "length": 1147.9814453125,
+      "rx": "15.375px",
+      "scroll": 390,
+      "tracks": 9,
+      "width": 390
+    },
+    {
+      "delay": [
+        "0s",
+        "-5.33333s",
+        "-10.6667s"
+      ],
+      "duration": "16s",
+      "groups": 3,
+      "length": 1147.9814453125,
+      "rx": "15.375px",
+      "scroll": 390,
+      "tracks": 9,
+      "width": 390
+    },
+    {
+      "delay": [
+        "0s",
+        "-5.33333s",
+        "-10.6667s"
+      ],
+      "duration": "16s",
+      "groups": 3,
+      "length": 1147.9814453125,
+      "rx": "15.375px",
+      "scroll": 390,
+      "tracks": 9,
+      "width": 390
+    },
+    {
+      "delay": [
+        "0s",
+        "-5.33333s",
+        "-10.6667s"
+      ],
+      "duration": "16s",
+      "groups": 3,
+      "length": 1147.9814453125,
+      "rx": "15.375px",
+      "scroll": 390,
+      "tracks": 9,
+      "width": 390
+    },
+    {
+      "delay": [
+        "0s",
+        "-5.33333s",
+        "-10.6667s"
+      ],
+      "duration": "16s",
+      "groups": 3,
+      "length": 1147.9814453125,
+      "rx": "15.375px",
+      "scroll": 390,
+      "tracks": 9,
+      "width": 390
+    },
+    {
+      "delay": [
+        "0s",
+        "-5.33333s",
+        "-10.6667s"
+      ],
+      "duration": "16s",
+      "groups": 3,
+      "length": 1147.9814453125,
+      "rx": "15.375px",
+      "scroll": 390,
+      "tracks": 9,
+      "width": 390
+    },
+    {
+      "delay": [
+        "0s",
+        "-5.33333s",
+        "-10.6667s"
+      ],
+      "duration": "16s",
+      "groups": 3,
+      "length": 1747.1689453125,
+      "rx": "15.375px",
+      "scroll": 1440,
+      "tracks": 9,
+      "width": 1440
+    },
+    {
+      "delay": [
+        "0s",
+        "-5.33333s",
+        "-10.6667s"
+      ],
+      "duration": "16s",
+      "groups": 3,
+      "length": 1747.1689453125,
+      "rx": "15.375px",
+      "scroll": 1440,
+      "tracks": 9,
+      "width": 1440
+    },
+    {
+      "delay": [
+        "0s",
+        "-5.33333s",
+        "-10.6667s"
+      ],
+      "duration": "16s",
+      "groups": 3,
+      "length": 1747.1689453125,
+      "rx": "15.375px",
+      "scroll": 1440,
+      "tracks": 9,
+      "width": 1440
+    },
+    {
+      "delay": [
+        "0s",
+        "-5.33333s",
+        "-10.6667s"
+      ],
+      "duration": "16s",
+      "groups": 3,
+      "length": 1747.1689453125,
+      "rx": "15.375px",
+      "scroll": 1440,
+      "tracks": 9,
+      "width": 1440
+    },
+    {
+      "delay": [
+        "0s",
+        "-5.33333s",
+        "-10.6667s"
+      ],
+      "duration": "16s",
+      "groups": 3,
+      "length": 1747.1689453125,
+      "rx": "15.375px",
+      "scroll": 1440,
+      "tracks": 9,
+      "width": 1440
+    },
+    {
+      "delay": [
+        "0s",
+        "-5.33333s",
+        "-10.6667s"
+      ],
+      "duration": "16s",
+      "groups": 3,
+      "length": 1747.1689453125,
+      "rx": "15.375px",
+      "scroll": 1440,
+      "tracks": 9,
+      "width": 1440
+    }
+  ],
+  "preciseDestinations": true,
+  "reducedMotion": true,
+  "errors": ""
+}

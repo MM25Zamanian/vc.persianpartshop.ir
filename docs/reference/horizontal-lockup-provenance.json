@@ -1,0 +1,27 @@
+{
+  "sourceArchive": "persepolis-zamanian-invitation-assets.zip",
+  "method": "Byte-identical original extracted components, arranged with CSS; not an officially certified horizontal variant.",
+  "assets": [
+    {
+      "file": "public/assets/persepolis-emblem.png",
+      "sha256": "e762babee2da855571bc58f4f687c51e08cb3823358ba0560140e35b6247fcc0",
+      "archiveEntries": [
+        "persepolis-zamanian-invitation-assets/brand/emblem/persepolis-emblem-red-transparent.png"
+      ]
+    },
+    {
+      "file": "public/assets/persepolis-wordmark.png",
+      "sha256": "8c023a917a0253792e882e4c26db9a0ba5ececf3b2ebe905f04d17c0afd8d8c9",
+      "archiveEntries": [
+        "persepolis-zamanian-invitation-assets/brand/wordmark/persepolis-wordmark-red-transparent.png"
+      ]
+    },
+    {
+      "file": "public/assets/persepolis-signature.png",
+      "sha256": "59b2401b827aab06b3f7b29e119e3092a586c6bc6c231f378d6fb88225378cd7",
+      "archiveEntries": [
+        "persepolis-zamanian-invitation-assets/brand/signature/persepolis-signature-red-transparent.png"
+      ]
+    }
+  ]
+}

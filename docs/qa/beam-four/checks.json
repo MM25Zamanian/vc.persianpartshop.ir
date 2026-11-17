@@ -1,0 +1,91 @@
+{
+  "widths": [
+    {
+      "lights": [
+        {
+          "distance": 3.36875,
+          "gradient": "linear-gradient(to left, rgb(237, 8, 18), rgb(174, 15, 23), rgba(0, 0, 0, 0))",
+          "path": "inset(0px 0% 0% 0px round 220px)"
+        },
+        {
+          "distance": 28.3687,
+          "gradient": "linear-gradient(to left, rgb(237, 8, 18), rgb(174, 15, 23), rgba(0, 0, 0, 0))",
+          "path": "inset(0px 0% 0% 0px round 220px)"
+        },
+        {
+          "distance": 53.3688,
+          "gradient": "linear-gradient(to left, rgb(237, 8, 18), rgb(174, 15, 23), rgba(0, 0, 0, 0))",
+          "path": "inset(0px 0% 0% 0px round 220px)"
+        },
+        {
+          "distance": 78.3688,
+          "gradient": "linear-gradient(to left, rgb(237, 8, 18), rgb(174, 15, 23), rgba(0, 0, 0, 0))",
+          "path": "inset(0px 0% 0% 0px round 220px)"
+        }
+      ],
+      "mask": "exclude, exclude",
+      "scroll": 320,
+      "width": 320
+    },
+    {
+      "lights": [
+        {
+          "distance": 3.7875,
+          "gradient": "linear-gradient(to left, rgb(237, 8, 18), rgb(174, 15, 23), rgba(0, 0, 0, 0))",
+          "path": "inset(0px 0% 0% 0px round 220px)"
+        },
+        {
+          "distance": 28.7875,
+          "gradient": "linear-gradient(to left, rgb(237, 8, 18), rgb(174, 15, 23), rgba(0, 0, 0, 0))",
+          "path": "inset(0px 0% 0% 0px round 220px)"
+        },
+        {
+          "distance": 53.7875,
+          "gradient": "linear-gradient(to left, rgb(237, 8, 18), rgb(174, 15, 23), rgba(0, 0, 0, 0))",
+          "path": "inset(0px 0% 0% 0px round 220px)"
+        },
+        {
+          "distance": 78.7875,
+          "gradient": "linear-gradient(to left, rgb(237, 8, 18), rgb(174, 15, 23), rgba(0, 0, 0, 0))",
+          "path": "inset(0px 0% 0% 0px round 220px)"
+        }
+      ],
+      "mask": "exclude, exclude",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "lights": [
+        {
+          "distance": 4.3125,
+          "gradient": "linear-gradient(to left, rgb(237, 8, 18), rgb(174, 15, 23), rgba(0, 0, 0, 0))",
+          "path": "inset(0px 0% 0% 0px round 220px)"
+        },
+        {
+          "distance": 29.3125,
+          "gradient": "linear-gradient(to left, rgb(237, 8, 18), rgb(174, 15, 23), rgba(0, 0, 0, 0))",
+          "path": "inset(0px 0% 0% 0px round 220px)"
+        },
+        {
+          "distance": 54.3125,
+          "gradient": "linear-gradient(to left, rgb(237, 8, 18), rgb(174, 15, 23), rgba(0, 0, 0, 0))",
+          "path": "inset(0px 0% 0% 0px round 220px)"
+        },
+        {
+          "distance": 79.3125,
+          "gradient": "linear-gradient(to left, rgb(237, 8, 18), rgb(174, 15, 23), rgba(0, 0, 0, 0))",
+          "path": "inset(0px 0% 0% 0px round 220px)"
+        }
+      ],
+      "mask": "exclude, exclude",
+      "scroll": 1440,
+      "width": 1440
+    }
+  ],
+  "progress": [
+    4.83125,
+    8.6875
+  ],
+  "reducedMotion": true,
+  "errors": ""
+}

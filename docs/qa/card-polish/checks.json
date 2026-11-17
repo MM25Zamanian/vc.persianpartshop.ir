@@ -1,0 +1,143 @@
+{
+  "viewports": [
+    {
+      "background": "rgb(242, 237, 232)",
+      "cardBackground": "rgb(255, 255, 255)",
+      "center": 160,
+      "controls": [
+        {
+          "height": 93.390625,
+          "name": "تماس با نمایشگاه"
+        },
+        {
+          "height": 93.390625,
+          "name": "کارشناسان فروش"
+        },
+        {
+          "height": 93.390625,
+          "name": "نشانی نمایشگاه مرکزی"
+        },
+        {
+          "height": 93.390625,
+          "name": "ذخیرهٔ مخاطبان"
+        }
+      ],
+      "document": [
+        320,
+        568
+      ],
+      "images": true,
+      "shadow": "rgba(70, 49, 36, 0.09) 0px 2px 3px -1px, rgba(70, 49, 36, 0.2) 0px 10px 20px -12px, rgba(70, 49, 36, 0.24) 0px 30px 60px -28px",
+      "viewport": [
+        320,
+        568
+      ]
+    },
+    {
+      "background": "rgb(242, 237, 232)",
+      "cardBackground": "rgb(255, 255, 255)",
+      "center": 195,
+      "controls": [
+        {
+          "height": 93.390625,
+          "name": "تماس با نمایشگاه"
+        },
+        {
+          "height": 93.390625,
+          "name": "کارشناسان فروش"
+        },
+        {
+          "height": 93.390625,
+          "name": "نشانی نمایشگاه مرکزی"
+        },
+        {
+          "height": 93.390625,
+          "name": "ذخیرهٔ مخاطبان"
+        }
+      ],
+      "document": [
+        390,
+        844
+      ],
+      "images": true,
+      "shadow": "rgba(70, 49, 36, 0.09) 0px 2px 3px -1px, rgba(70, 49, 36, 0.2) 0px 10px 20px -12px, rgba(70, 49, 36, 0.24) 0px 30px 60px -28px",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "background": "rgb(242, 237, 232)",
+      "cardBackground": "rgb(255, 255, 255)",
+      "center": 720,
+      "controls": [
+        {
+          "height": 93.390625,
+          "name": "تماس با نمایشگاه"
+        },
+        {
+          "height": 93.390625,
+          "name": "کارشناسان فروش"
+        },
+        {
+          "height": 93.390625,
+          "name": "نشانی نمایشگاه مرکزی"
+        },
+        {
+          "height": 93.390625,
+          "name": "ذخیرهٔ مخاطبان"
+        }
+      ],
+      "document": [
+        1440,
+        900
+      ],
+      "images": true,
+      "shadow": "rgba(70, 49, 36, 0.09) 0px 2px 3px -1px, rgba(70, 49, 36, 0.2) 0px 10px 20px -12px, rgba(70, 49, 36, 0.24) 0px 30px 60px -28px",
+      "viewport": [
+        1440,
+        900
+      ]
+    }
+  ],
+  "drawers": [
+    {
+      "links": [
+        "tel:+985136511717",
+        "tel:+985136511818"
+      ],
+      "title": "تماس با نمایشگاه",
+      "focusRestored": true
+    },
+    {
+      "links": [
+        "tel:+989156201162",
+        "tel:+989101154220"
+      ],
+      "title": "کارشناسان فروش",
+      "focusRestored": true
+    },
+    {
+      "links": [
+        "https://www.google.com/maps/search/?api=1&query=%D9%85%DB%8C%D8%AF%D8%A7%D9%86+%D8%B4%D9%87%DB%8C%D8%AF+%D9%81%D9%87%D9%85%DB%8C%D8%AF%D9%87+%D8%A8%D9%87+%D8%B3%D9%85%D8%AA+%D9%85%DB%8C%D8%AF%D8%A7%D9%86+%D9%85%D8%B9%D8%B1%D8%A7%D8%AC%D8%8C+%D8%A8%DB%8C%D9%86+%D8%AA%D9%88%D8%B3+%DB%B3%DB%B3+%D9%88+%DB%B3%DB%B3%2F%DB%B1%D8%8C+%D9%81%D8%B1%D9%88%D8%B4%DA%AF%D8%A7%D9%87+%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3"
+      ],
+      "title": "نشانی نمایشگاه مرکزی",
+      "focusRestored": true
+    },
+    {
+      "links": [
+        "/contacts.vcf"
+      ],
+      "title": "ذخیرهٔ مخاطبان",
+      "focusRestored": true
+    }
+  ],
+  "errors": "",
+  "console": "",
+  "contrast": {
+    "mutedOnPaper": 4.733,
+    "inkOnPaper": 12.77,
+    "deepRedOnPaper": 6.268,
+    "whiteOnPaper": 1.163
+  }
+}

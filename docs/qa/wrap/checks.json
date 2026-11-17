@@ -1,0 +1,138 @@
+[
+  {
+    "scrollWidth": 320,
+    "text": [
+      {
+        "lines": 1,
+        "scrollWidth": 129,
+        "selector": ".card-face h1",
+        "text": "بازرگانی زمانیان",
+        "width": 129
+      },
+      {
+        "lines": 1,
+        "scrollWidth": 248,
+        "selector": ".brand-role",
+        "text": "نمایندگی انحصاری شرکت کاشی پرسپولیس یزد",
+        "width": 248
+      },
+      {
+        "lines": 1,
+        "scrollWidth": 87,
+        "selector": ".card-imprint p:first-child",
+        "text": "نمایشگاه مرکزی",
+        "width": 87
+      },
+      {
+        "lines": 1,
+        "scrollWidth": 82,
+        "selector": ".card-imprint p:last-child",
+        "text": "توس ۳۳ و ۳۳/۱",
+        "width": 82
+      }
+    ],
+    "width": 320
+  },
+  {
+    "scrollWidth": 390,
+    "text": [
+      {
+        "lines": 1,
+        "scrollWidth": 129,
+        "selector": ".card-face h1",
+        "text": "بازرگانی زمانیان",
+        "width": 129
+      },
+      {
+        "lines": 1,
+        "scrollWidth": 302,
+        "selector": ".brand-role",
+        "text": "نمایندگی انحصاری شرکت کاشی پرسپولیس یزد",
+        "width": 302
+      },
+      {
+        "lines": 1,
+        "scrollWidth": 87,
+        "selector": ".card-imprint p:first-child",
+        "text": "نمایشگاه مرکزی",
+        "width": 87
+      },
+      {
+        "lines": 1,
+        "scrollWidth": 82,
+        "selector": ".card-imprint p:last-child",
+        "text": "توس ۳۳ و ۳۳/۱",
+        "width": 82
+      }
+    ],
+    "width": 390
+  },
+  {
+    "scrollWidth": 768,
+    "text": [
+      {
+        "lines": 1,
+        "scrollWidth": 193,
+        "selector": ".card-face h1",
+        "text": "بازرگانی زمانیان",
+        "width": 193
+      },
+      {
+        "lines": 1,
+        "scrollWidth": 480,
+        "selector": ".brand-role",
+        "text": "نمایندگی انحصاری شرکت کاشی پرسپولیس یزد",
+        "width": 480
+      },
+      {
+        "lines": 1,
+        "scrollWidth": 87,
+        "selector": ".card-imprint p:first-child",
+        "text": "نمایشگاه مرکزی",
+        "width": 87
+      },
+      {
+        "lines": 1,
+        "scrollWidth": 82,
+        "selector": ".card-imprint p:last-child",
+        "text": "توس ۳۳ و ۳۳/۱",
+        "width": 82
+      }
+    ],
+    "width": 768
+  },
+  {
+    "scrollWidth": 1440,
+    "text": [
+      {
+        "lines": 1,
+        "scrollWidth": 193,
+        "selector": ".card-face h1",
+        "text": "بازرگانی زمانیان",
+        "width": 193
+      },
+      {
+        "lines": 1,
+        "scrollWidth": 480,
+        "selector": ".brand-role",
+        "text": "نمایندگی انحصاری شرکت کاشی پرسپولیس یزد",
+        "width": 480
+      },
+      {
+        "lines": 1,
+        "scrollWidth": 87,
+        "selector": ".card-imprint p:first-child",
+        "text": "نمایشگاه مرکزی",
+        "width": 87
+      },
+      {
+        "lines": 1,
+        "scrollWidth": 82,
+        "selector": ".card-imprint p:last-child",
+        "text": "توس ۳۳ و ۳۳/۱",
+        "width": 82
+      }
+    ],
+    "width": 1440
+  }
+]

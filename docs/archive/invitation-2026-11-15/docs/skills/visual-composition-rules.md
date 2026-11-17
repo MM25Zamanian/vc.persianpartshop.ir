@@ -1,0 +1,3 @@
+# Visual composition
+
+Primary containers, logo, headings, logistics, booth and actions share a common measured central axis. Use balanced spacing and intentional hierarchy, not only `text-align`. Preserve sufficient negative space and contrast; do not let ornament obscure content. If a later user direction permits architectural imagery, use ceramic, stone or geometric material sparingly, balance its visual weight, and label conceptual imagery accurately. The current approved direction excludes decorative backgrounds and poster art. Avoid arbitrary frames, gradients and feature cards. Inspect mobile and desktop screenshots against the reference as modified by subsequent user corrections.

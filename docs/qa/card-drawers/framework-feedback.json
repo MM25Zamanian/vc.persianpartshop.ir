@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "triggerReason": "unexpected-behavior",
+  "title": "A successful warm Turbopack build emitted stale CSS",
+  "setup": {
+    "mode": "production-build",
+    "bundler": "turbopack",
+    "relevantFeatures": [
+      "Custom CSS loader"
+    ]
+  },
+  "steps": [
+    "Use a CSS loader with Turbopack and complete a successful production build.",
+    "Add layout declarations to the global stylesheet, then run another production build.",
+    "Compare the emitted CSS with the changed stylesheet, then compare a clean rebuild."
+  ],
+  "observed": [
+    "The warm build exited successfully but the emitted CSS retained the previous layout rules.",
+    "A clean build emitted the new declarations and the rendered layout then matched the stylesheet."
+  ],
+  "expected": "A successful rebuild should emit the current stylesheet declarations.",
+  "comparison": "Moving the previous build output aside and performing a clean build picked up the changed CSS.",
+  "frequency": "once",
+  "outcome": "worked-around",
+  "nextVersion": "16.4.6",
+  "agent": "Codex"
+}

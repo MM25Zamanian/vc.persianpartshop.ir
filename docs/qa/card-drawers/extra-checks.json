@@ -1,0 +1,76 @@
+{
+  "viewports": [
+    {
+      "cardCenter": 180,
+      "document": [
+        360,
+        640
+      ],
+      "viewport": [
+        360,
+        640
+      ],
+      "panel": {
+        "bodyOverflow": false,
+        "left": 0,
+        "right": 360,
+        "top": 271.4375,
+        "width": 360
+      }
+    },
+    {
+      "cardCenter": 215,
+      "document": [
+        430,
+        932
+      ],
+      "viewport": [
+        430,
+        932
+      ],
+      "panel": {
+        "bodyOverflow": false,
+        "left": 0,
+        "right": 430,
+        "top": 590.03125,
+        "width": 430
+      }
+    },
+    {
+      "cardCenter": 384,
+      "document": [
+        768,
+        1024
+      ],
+      "viewport": [
+        768,
+        1024
+      ],
+      "panel": {
+        "bodyOverflow": false,
+        "left": 112,
+        "right": 656,
+        "top": 682.03125,
+        "width": 544
+      }
+    },
+    {
+      "cardCenter": 422,
+      "document": [
+        844,
+        535
+      ],
+      "viewport": [
+        844,
+        390
+      ],
+      "panel": {
+        "bodyOverflow": false,
+        "left": 150,
+        "right": 694,
+        "top": 48.03125,
+        "width": 544
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "engine": "system Chrome with iPhone emulation",
+  "input": "agent-browser stream input_touch (synthesized native touch)",
+  "scrollBefore": 0,
+  "scrollAfter": 329,
+  "scrollDidNotDismiss": true,
+  "touchSwipeDismissal": true,
+  "focusRestored": "ذخیرهٔ مخاطبان"
+}

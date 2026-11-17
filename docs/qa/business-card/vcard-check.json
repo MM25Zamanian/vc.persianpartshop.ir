@@ -1,0 +1,10 @@
+{
+  "status": 200,
+  "contentType": "text/vcard; charset=utf-8",
+  "records": 3,
+  "physicalLines": 30,
+  "maxLineBytes": 75,
+  "CRLF": true,
+  "phoneOwnership": "passed",
+  "oldMobileAbsent": true
+}

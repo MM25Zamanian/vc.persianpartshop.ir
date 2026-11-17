@@ -1,0 +1,74 @@
+[
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/mm25zamanian/Codes/ic.persianpartshop.ir/app/globals.css",
+    "line": 63,
+    "snippet": "font-size: clamp(1.375rem, 4.5vw, 1.875rem) has fluid endpoint 1.375rem off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "1.375rem"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/mm25zamanian/Codes/ic.persianpartshop.ir/app/globals.css",
+    "line": 66,
+    "snippet": "font-size: 0.8125rem is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "0.8125rem"
+  },
+  {
+    "antipattern": "design-system-radius",
+    "name": "Radius outside DESIGN.md",
+    "description": "A border-radius value is outside the DESIGN.md rounded scale. Use a documented radius token or update the design system if the new shape is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/mm25zamanian/Codes/ic.persianpartshop.ir/app/globals.css",
+    "line": 95,
+    "snippet": "border-radius: 2px is outside the DESIGN.md rounded scale",
+    "advisory": true,
+    "ignoreValue": "2px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/mm25zamanian/Codes/ic.persianpartshop.ir/app/globals.css",
+    "line": 97,
+    "snippet": "font-size: 1.125rem is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "1.125rem"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/mm25zamanian/Codes/ic.persianpartshop.ir/app/globals.css",
+    "line": 106,
+    "snippet": "font-size: 1.125rem is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "1.125rem"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/mm25zamanian/Codes/ic.persianpartshop.ir/app/globals.css",
+    "line": 113,
+    "snippet": "font-size: 0.8125rem is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "0.8125rem"
+  }
+]

@@ -1,0 +1,67 @@
+✓ Done
+
+{
+  "height": 2863,
+  "links": [
+    {
+      "height": 143.1875,
+      "width": 240
+    },
+    {
+      "height": 190.78125,
+      "width": 240
+    },
+    {
+      "height": 112,
+      "width": 240
+    },
+    {
+      "height": 112,
+      "width": 240
+    },
+    {
+      "height": 336,
+      "width": 240
+    },
+    {
+      "height": 336,
+      "width": 240
+    },
+    {
+      "height": 44,
+      "width": 205.40625
+    }
+  ],
+  "viewport": 320,
+  "width": 320
+}
+
+✓ Screenshot saved to docs/qa/business-card/text-200.png
+
+{
+  "oldText": false
+}
+
+✓ Done
+
+{
+  "focused": "تماس با کارشناسان",
+  "outline": "solid"
+}
+
+✓ Done
+
+{
+  "focused": "sales-title",
+  "hash": "#sales-title"
+}
+
+✓ Done
+
+{
+  "animations": 0,
+  "dir": "rtl",
+  "lang": "fa"
+}
+
+

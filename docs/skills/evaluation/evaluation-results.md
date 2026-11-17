@@ -1,0 +1,7 @@
+> یادداشت تغییر کاربری ۲۰۲۶-۱۱-۱۵: این سند سوابق نصب/پژوهش/ارزیابی دعوت‌نامه را ثبت می‌کند؛ تأیید محصول فعلی نیست. قرارداد فعال در [نمایهٔ مستندات](../../README.md) و ماتریس فعلی ثبت شده است.
+
+# Evaluation results
+
+Phase 0.4: scenarios are specified in `test-cases.md`. Independent behavioral and activation trials have not been run; there is no evidence yet that a fresh agent selects the skill, applies all constraints, produces quality UI, or captures screenshots. The Skills CLI listing checks filesystem discovery only. Structural validation results are recorded in the installation report. No scenario is represented as passed without a real trial. Rerun the seven cases in an independent session with observable invocation traces and artifacts before declaring behavioral readiness.
+
+Observed setup checks: Codex-compatible CLI listing includes the custom skill; the local skill-creator structural validator reports valid; the readiness script finds all 32 required files and its limited frontmatter shape check passes. Agent-browser 0.43.0 opened the existing local page with system Chrome and saved [a screenshot](browser-runtime.png). Impeccable context ran and reported missing product initialization before redesign. These are not scenario runs and establish no automatic trigger or skill-quality score. The seven behavioral tests remain not run.

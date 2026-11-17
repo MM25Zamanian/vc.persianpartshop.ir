@@ -1,0 +1,284 @@
+{
+  "removedFiles": 53,
+  "removedBytes": 6183140,
+  "files": [
+    {
+      "path": ".DS_Store",
+      "bytes": 10244,
+      "reason": "فرادادهٔ محلی Finder"
+    },
+    {
+      "path": ".playwright-cli/console-2026-11-14T16-12-10-751Z.log",
+      "bytes": 1209,
+      "reason": "لاگ یا snapshot موقت مرورگرِ نشست قدیمی؛ شواهد انتخاب‌شده در docs/qa باقی است"
+    },
+    {
+      "path": ".playwright-cli/console-2026-11-14T16-13-39-953Z.log",
+      "bytes": 27717,
+      "reason": "لاگ یا snapshot موقت مرورگرِ نشست قدیمی؛ شواهد انتخاب‌شده در docs/qa باقی است"
+    },
+    {
+      "path": ".playwright-cli/console-2026-11-14T16-14-06-075Z.log",
+      "bytes": 2189,
+      "reason": "لاگ یا snapshot موقت مرورگرِ نشست قدیمی؛ شواهد انتخاب‌شده در docs/qa باقی است"
+    },
+    {
+      "path": ".playwright-cli/console-2026-11-14T16-17-04-067Z.log",
+      "bytes": 29395,
+      "reason": "لاگ یا snapshot موقت مرورگرِ نشست قدیمی؛ شواهد انتخاب‌شده در docs/qa باقی است"
+    },
+    {
+      "path": ".playwright-cli/console-2026-11-14T16-17-23-821Z.log",
+      "bytes": 470,
+      "reason": "لاگ یا snapshot موقت مرورگرِ نشست قدیمی؛ شواهد انتخاب‌شده در docs/qa باقی است"
+    },
+    {
+      "path": ".playwright-cli/console-2026-11-14T16-50-08-145Z.log",
+      "bytes": 36867,
+      "reason": "لاگ یا snapshot موقت مرورگرِ نشست قدیمی؛ شواهد انتخاب‌شده در docs/qa باقی است"
+    },
+    {
+      "path": ".playwright-cli/console-2026-11-14T16-51-42-093Z.log",
+      "bytes": 341,
+      "reason": "لاگ یا snapshot موقت مرورگرِ نشست قدیمی؛ شواهد انتخاب‌شده در docs/qa باقی است"
+    },
+    {
+      "path": ".playwright-cli/console-2026-11-14T16-53-38-061Z.log",
+      "bytes": 682,
+      "reason": "لاگ یا snapshot موقت مرورگرِ نشست قدیمی؛ شواهد انتخاب‌شده در docs/qa باقی است"
+    },
+    {
+      "path": ".playwright-cli/page-2026-11-14T16-12-11-212Z.yml",
+      "bytes": 2292,
+      "reason": "لاگ یا snapshot موقت مرورگرِ نشست قدیمی؛ شواهد انتخاب‌شده در docs/qa باقی است"
+    },
+    {
+      "path": ".playwright-cli/page-2026-11-14T16-12-20-705Z.yml",
+      "bytes": 2386,
+      "reason": "لاگ یا snapshot موقت مرورگرِ نشست قدیمی؛ شواهد انتخاب‌شده در docs/qa باقی است"
+    },
+    {
+      "path": ".playwright-cli/page-2026-11-14T16-12-42-999Z.yml",
+      "bytes": 2386,
+      "reason": "لاگ یا snapshot موقت مرورگرِ نشست قدیمی؛ شواهد انتخاب‌شده در docs/qa باقی است"
+    },
+    {
+      "path": ".playwright-cli/page-2026-11-14T16-12-57-091Z.yml",
+      "bytes": 2336,
+      "reason": "لاگ یا snapshot موقت مرورگرِ نشست قدیمی؛ شواهد انتخاب‌شده در docs/qa باقی است"
+    },
+    {
+      "path": ".playwright-cli/page-2026-11-14T16-13-40-755Z.yml",
+      "bytes": 2401,
+      "reason": "لاگ یا snapshot موقت مرورگرِ نشست قدیمی؛ شواهد انتخاب‌شده در docs/qa باقی است"
+    },
+    {
+      "path": ".playwright-cli/page-2026-11-14T16-14-06-374Z.yml",
+      "bytes": 2401,
+      "reason": "لاگ یا snapshot موقت مرورگرِ نشست قدیمی؛ شواهد انتخاب‌شده در docs/qa باقی است"
+    },
+    {
+      "path": ".playwright-cli/page-2026-11-14T16-15-04-136Z.yml",
+      "bytes": 2336,
+      "reason": "لاگ یا snapshot موقت مرورگرِ نشست قدیمی؛ شواهد انتخاب‌شده در docs/qa باقی است"
+    },
+    {
+      "path": ".playwright-cli/page-2026-11-14T16-17-05-425Z.yml",
+      "bytes": 2382,
+      "reason": "لاگ یا snapshot موقت مرورگرِ نشست قدیمی؛ شواهد انتخاب‌شده در docs/qa باقی است"
+    },
+    {
+      "path": ".playwright-cli/page-2026-11-14T16-17-24-076Z.yml",
+      "bytes": 2523,
+      "reason": "لاگ یا snapshot موقت مرورگرِ نشست قدیمی؛ شواهد انتخاب‌شده در docs/qa باقی است"
+    },
+    {
+      "path": ".playwright-cli/page-2026-11-14T16-50-09-541Z.yml",
+      "bytes": 2049,
+      "reason": "لاگ یا snapshot موقت مرورگرِ نشست قدیمی؛ شواهد انتخاب‌شده در docs/qa باقی است"
+    },
+    {
+      "path": ".playwright-cli/page-2026-11-14T16-51-42-453Z.yml",
+      "bytes": 2112,
+      "reason": "لاگ یا snapshot موقت مرورگرِ نشست قدیمی؛ شواهد انتخاب‌شده در docs/qa باقی است"
+    },
+    {
+      "path": ".playwright-cli/page-2026-11-14T16-53-38-434Z.yml",
+      "bytes": 2112,
+      "reason": "لاگ یا snapshot موقت مرورگرِ نشست قدیمی؛ شواهد انتخاب‌شده در docs/qa باقی است"
+    },
+    {
+      "path": ".playwright-cli/page-2026-11-14T16-54-01-566Z.yml",
+      "bytes": 1986,
+      "reason": "لاگ یا snapshot موقت مرورگرِ نشست قدیمی؛ شواهد انتخاب‌شده در docs/qa باقی است"
+    },
+    {
+      "path": ".playwright-cli/page-2026-11-14T16-54-03-126Z.yml",
+      "bytes": 2049,
+      "reason": "لاگ یا snapshot موقت مرورگرِ نشست قدیمی؛ شواهد انتخاب‌شده در docs/qa باقی است"
+    },
+    {
+      "path": ".playwright-cli/page-2026-11-14T18-11-39-708Z.yml",
+      "bytes": 2152,
+      "reason": "لاگ یا snapshot موقت مرورگرِ نشست قدیمی؛ شواهد انتخاب‌شده در docs/qa باقی است"
+    },
+    {
+      "path": ".playwright-cli/page-2026-11-14T18-17-26-978Z.yml",
+      "bytes": 2223,
+      "reason": "لاگ یا snapshot موقت مرورگرِ نشست قدیمی؛ شواهد انتخاب‌شده در docs/qa باقی است"
+    },
+    {
+      "path": ".playwright-cli/page-2026-11-14T18-18-39-848Z.yml",
+      "bytes": 2244,
+      "reason": "لاگ یا snapshot موقت مرورگرِ نشست قدیمی؛ شواهد انتخاب‌شده در docs/qa باقی است"
+    },
+    {
+      "path": ".playwright-cli/page-2026-11-14T18-21-32-976Z.yml",
+      "bytes": 2301,
+      "reason": "لاگ یا snapshot موقت مرورگرِ نشست قدیمی؛ شواهد انتخاب‌شده در docs/qa باقی است"
+    },
+    {
+      "path": ".playwright-cli/page-2026-11-14T18-26-49-975Z.yml",
+      "bytes": 2301,
+      "reason": "لاگ یا snapshot موقت مرورگرِ نشست قدیمی؛ شواهد انتخاب‌شده در docs/qa باقی است"
+    },
+    {
+      "path": ".playwright-cli/page-2026-11-14T18-47-54-309Z.yml",
+      "bytes": 2301,
+      "reason": "لاگ یا snapshot موقت مرورگرِ نشست قدیمی؛ شواهد انتخاب‌شده در docs/qa باقی است"
+    },
+    {
+      "path": "app/_progressive-blur.tsx",
+      "bytes": 759,
+      "reason": "کامپوننت دعوت‌نامهٔ قبلی؛ هیچ import فعالی ندارد"
+    },
+    {
+      "path": "config/event.ts",
+      "bytes": 1114,
+      "reason": "دادهٔ رویداد منسوخ؛ کارت فعلی از config/business.ts استفاده می‌کند"
+    },
+    {
+      "path": "docs/design/material-a.webp",
+      "bytes": 5980,
+      "reason": "کاوش تصویری منسوخ دعوت‌نامه؛ در محصول و اسناد فعال مصرف نمی‌شود"
+    },
+    {
+      "path": "docs/design/material-b.webp",
+      "bytes": 9794,
+      "reason": "کاوش تصویری منسوخ دعوت‌نامه؛ در محصول و اسناد فعال مصرف نمی‌شود"
+    },
+    {
+      "path": "docs/design/material-c.webp",
+      "bytes": 7374,
+      "reason": "کاوش تصویری منسوخ دعوت‌نامه؛ در محصول و اسناد فعال مصرف نمی‌شود"
+    },
+    {
+      "path": "docs/design/material-generation.json",
+      "bytes": 3397,
+      "reason": "کاوش تصویری منسوخ دعوت‌نامه؛ در محصول و اسناد فعال مصرف نمی‌شود"
+    },
+    {
+      "path": "output/business-card/og.html",
+      "bytes": 139204,
+      "reason": "خروجی موقت تولید تصویر/HTML؛ از ورودی‌ها و ابزار باقی‌مانده قابل بازتولید یا منسوخ است"
+    },
+    {
+      "path": "output/imagegen/dima-scene.png",
+      "bytes": 2423132,
+      "reason": "خروجی موقت تولید تصویر/HTML؛ از ورودی‌ها و ابزار باقی‌مانده قابل بازتولید یا منسوخ است"
+    },
+    {
+      "path": "output/imagegen/mallorca-scene.png",
+      "bytes": 2655493,
+      "reason": "خروجی موقت تولید تصویر/HTML؛ از ورودی‌ها و ابزار باقی‌مانده قابل بازتولید یا منسوخ است"
+    },
+    {
+      "path": "public/.DS_Store",
+      "bytes": 8196,
+      "reason": "فرادادهٔ محلی Finder"
+    },
+    {
+      "path": "public/assets/architectural-scene.webp",
+      "bytes": 57538,
+      "reason": "دارایی runtime طرح‌های قبلی؛ تنها لوگوی کامل PNG در نسخهٔ فعلی مصرف می‌شود"
+    },
+    {
+      "path": "public/assets/ceramic-study.webp",
+      "bytes": 5980,
+      "reason": "دارایی runtime طرح‌های قبلی؛ تنها لوگوی کامل PNG در نسخهٔ فعلی مصرف می‌شود"
+    },
+    {
+      "path": "public/assets/faraz-3-key-art.webp",
+      "bytes": 74216,
+      "reason": "دارایی runtime طرح‌های قبلی؛ تنها لوگوی کامل PNG در نسخهٔ فعلی مصرف می‌شود"
+    },
+    {
+      "path": "public/assets/materials/dima-navy-blue.webp",
+      "bytes": 140948,
+      "reason": "دارایی runtime طرح‌های قبلی؛ تنها لوگوی کامل PNG در نسخهٔ فعلی مصرف می‌شود"
+    },
+    {
+      "path": "public/assets/materials/dima-scene.webp",
+      "bytes": 133474,
+      "reason": "دارایی runtime طرح‌های قبلی؛ تنها لوگوی کامل PNG در نسخهٔ فعلی مصرف می‌شود"
+    },
+    {
+      "path": "public/assets/materials/mallorca-black.webp",
+      "bytes": 88000,
+      "reason": "دارایی runtime طرح‌های قبلی؛ تنها لوگوی کامل PNG در نسخهٔ فعلی مصرف می‌شود"
+    },
+    {
+      "path": "public/assets/materials/mallorca-scene.webp",
+      "bytes": 181334,
+      "reason": "دارایی runtime طرح‌های قبلی؛ تنها لوگوی کامل PNG در نسخهٔ فعلی مصرف می‌شود"
+    },
+    {
+      "path": "public/assets/persepolis-logo-white.png",
+      "bytes": 57224,
+      "reason": "دارایی runtime طرح‌های قبلی؛ تنها لوگوی کامل PNG در نسخهٔ فعلی مصرف می‌شود"
+    },
+    {
+      "path": "public/assets/persepolis-logo.webp",
+      "bytes": 32282,
+      "reason": "دارایی runtime طرح‌های قبلی؛ تنها لوگوی کامل PNG در نسخهٔ فعلی مصرف می‌شود"
+    },
+    {
+      "path": "public/file.svg",
+      "bytes": 391,
+      "reason": "دارایی پیش‌فرض Next، بدون مصرف در صفحه/metadata/ابزارها"
+    },
+    {
+      "path": "public/globe.svg",
+      "bytes": 1035,
+      "reason": "دارایی پیش‌فرض Next، بدون مصرف در صفحه/metadata/ابزارها"
+    },
+    {
+      "path": "public/next.svg",
+      "bytes": 1375,
+      "reason": "دارایی پیش‌فرض Next، بدون مصرف در صفحه/metadata/ابزارها"
+    },
+    {
+      "path": "public/vercel.svg",
+      "bytes": 128,
+      "reason": "دارایی پیش‌فرض Next، بدون مصرف در صفحه/metadata/ابزارها"
+    },
+    {
+      "path": "public/window.svg",
+      "bytes": 385,
+      "reason": "دارایی پیش‌فرض Next، بدون مصرف در صفحه/metadata/ابزارها"
+    }
+  ],
+  "removedDependency": "lucide-react",
+  "removedCssToken": "--space-2xl",
+  "preserved": [
+    "public/assets/persepolis-logo.png",
+    "app/icon.png",
+    "app/opengraph-image.png",
+    "docs/reference",
+    "docs/qa",
+    "docs/archive",
+    ".agents",
+    ".impeccable",
+    "scripts/render-business-og.mjs"
+  ]
+}

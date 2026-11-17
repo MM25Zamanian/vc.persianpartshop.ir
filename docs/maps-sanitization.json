@@ -1,0 +1,22 @@
+{
+  "method": "Strict allowlist with used class rules converted to paint attributes; geometry unchanged; active content not retained.",
+  "files": [
+    {
+      "source": "mapvectorizer-export-2026-11-17-1216.svg",
+      "output": "public/assets/maps/office-map.svg",
+      "sourceBytes": 12669,
+      "outputBytes": 9921,
+      "sourceSHA256": "cf8862467480399013f726a429cf67ca301bbb141ff628bb28a3f942cf1a428b",
+      "outputSHA256": "efa5c3c7b89609d1f1af4a80d11689b71d115a9719a848faef23e58e771bae8e"
+    },
+    {
+      "source": "mapvectorizer-export-2026-11-17-1218.svg",
+      "output": "public/assets/maps/store-map.svg",
+      "sourceBytes": 18257,
+      "outputBytes": 18300,
+      "sourceSHA256": "b266775afeb6e29559eb73a83420e7bdeb879524eb667ebc2cdcb1a3c9863c8a",
+      "outputSHA256": "92867d923aca4df7f04aab5dd96649f6270f0ef73562942a650a18c1a3e5b3ef"
+    }
+  ],
+  "visualVerification": "Quick Look 1000px renders compared pixel-for-pixel with originals; identical for both."
+}

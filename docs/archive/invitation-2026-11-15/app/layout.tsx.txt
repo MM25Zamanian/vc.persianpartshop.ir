@@ -1,0 +1,31 @@
+import type { Metadata } from "next";
+import localFont from "next/font/local";
+import "./globals.css";
+
+const vazirmatn = localFont({
+  src: [
+    { path: "../node_modules/@fontsource-variable/vazirmatn/files/vazirmatn-arabic-wght-normal.woff2", weight: "100 900", style: "normal" },
+  ],
+  variable: "--font-vazirmatn",
+  display: "swap",
+});
+
+const title = "دعوت‌نامه بازرگانی زمانیان | نمایشگاه فراز ۳";
+const description = "بازرگانی زمانیان، نماینده کارخانه کاشی پرسپولیس، شما را به بازدید از غرفه ۲۳۲ در نمایشگاه تخصصی صنعت ساختمان فراز ۳ دعوت می‌کند.";
+
+export const metadata: Metadata = {
+  metadataBase: process.env.SITE_URL ? new URL(process.env.SITE_URL) : undefined,
+  title,
+  description,
+  robots: { index: false, follow: false },
+  openGraph: { title, description, locale: "fa_IR", type: "website" },
+  twitter: { card: "summary_large_image", title, description },
+};
+
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  return (
+    <html lang="fa" dir="rtl" className={vazirmatn.variable}>
+      <body>{children}</body>
+    </html>
+  );
+}
