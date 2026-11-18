@@ -2,6 +2,10 @@ export const business = {
   name: "بازرگانی زمانیان",
   brand: "کاشی پرسپولیس",
   representation: "نمایندگی انحصاری کاشی پرسپولیس یزد در خراسان بزرگ",
+  catalog: {
+    url: "https://catalog.persianpartshop.ir",
+    enabled: false,
+  },
   office: {
     name: "دفتر مرکزی",
     mapsUrl: "https://maps.app.goo.gl/NkTdPy8zxmNhoL2o8",
@@ -27,9 +31,9 @@ export const business = {
   },
   sales: [
     { id: "azma", role: "کارشناس فروش", name: "سرکار خانم آزما", contactName: "خانم آزما", phone: { display: "۰۹۱۵ ۶۲۰ ۱۱۶۲", uri: "+989156201162" } },
-    { id: "mehraban", role: "کارشناس فروش", name: "جناب آقای مهندسی مهربان", contactName: "مهندسی مهربان", phone: { display: "۰۹۱۰ ۱۱۵ ۴۲۲۰", uri: "+989101154220" } },
-    { id: "shariatzadeh", role: "کارشناس فروش", name: "جناب آقای مهندسی شریعت زاده", contactName: "مهندسی شریعت زاده", phone: { display: "۰۹۱۵ ۰۰۲ ۶۴۰۰", uri: "+989150026400" } },
-    { id: "ghadimi", role: "کارشناس فروش", name: "جناب آقای مهندسی قدیمی", contactName: "مهندسی قدیمی", phone: { display: "۰۹۱۵ ۰۲۹ ۷۴۰۴", uri: "+989150297404" } },
+    { id: "mehraban", role: "کارشناس فروش", name: "جناب آقای مهندس مهربان", contactName: "مهندس مهربان", phone: { display: "۰۹۱۰ ۱۱۵ ۴۲۲۰", uri: "+989101154220" } },
+    { id: "shariatzadeh", role: "کارشناس فروش", name: "جناب آقای مهندس شریعت زاده", contactName: "مهندس شریعت زاده", phone: { display: "۰۹۱۵ ۰۰۲ ۶۴۰۰", uri: "+989150026400" } },
+    { id: "ghadimi", role: "کارشناس فروش", name: "جناب آقای مهندس قدیمی", contactName: "مهندس قدیمی", phone: { display: "۰۹۱۵ ۰۲۹ ۷۴۰۴", uri: "+989150297404" } },
   ],
 } as const;
 

@@ -150,7 +150,7 @@ bdi {
 }
 .card-actions {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 5.5rem), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 4rem), 1fr));
   gap: var(--space-sm);
   margin-top: var(--space-xl);
 }
@@ -181,14 +181,27 @@ bdi {
   color: var(--deep-red);
   background: var(--white);
 }
-.card-action:hover .card-action-icon,
-.card-action:active .card-action-icon,
+.card-action:not(:disabled):hover .card-action-icon,
+.card-action:not(:disabled):active .card-action-icon,
 .card-action[data-popup-open] .card-action-icon {
   border-color: var(--deep-red);
 }
-.card-action:hover,
-.card-action:active {
+.card-action:not(:disabled):hover,
+.card-action:not(:disabled):active {
   color: var(--deep-red);
+}
+.card-action:disabled {
+  color: var(--muted);
+  cursor: not-allowed;
+}
+.card-action:disabled .card-action-icon {
+  color: var(--muted);
+  background: var(--paper);
+}
+.card-action-status {
+  margin-top: -0.5rem;
+  font-size: 0.75rem;
+  font-weight: 400;
 }
 
 .details-backdrop {

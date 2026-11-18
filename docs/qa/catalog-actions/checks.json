@@ -1,0 +1,184 @@
+{
+  "measurements": [
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "actions": [
+        {
+          "label": "ارتباط با ما",
+          "width": 64,
+          "top": 515.8125,
+          "disabled": false,
+          "href": null
+        },
+        {
+          "label": "کاتالوگ ما",
+          "width": 64,
+          "top": 515.8125,
+          "disabled": true,
+          "href": null
+        },
+        {
+          "label": "دفتر مرکزی",
+          "width": 64,
+          "top": 515.8125,
+          "disabled": false,
+          "href": null
+        },
+        {
+          "label": "فروشگاه مرکزی",
+          "width": 64,
+          "top": 515.8125,
+          "disabled": false,
+          "href": null
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "actions": [
+        {
+          "label": "ارتباط با ما",
+          "width": 81.5,
+          "top": 527.5,
+          "disabled": false,
+          "href": null
+        },
+        {
+          "label": "کاتالوگ ما",
+          "width": 81.5,
+          "top": 527.5,
+          "disabled": true,
+          "href": null
+        },
+        {
+          "label": "دفتر مرکزی",
+          "width": 81.5,
+          "top": 527.5,
+          "disabled": false,
+          "href": null
+        },
+        {
+          "label": "فروشگاه مرکزی",
+          "width": 81.5,
+          "top": 527.5,
+          "disabled": false,
+          "href": null
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "actions": [
+        {
+          "label": "ارتباط با ما",
+          "width": 130,
+          "top": 580.296875,
+          "disabled": false,
+          "href": null
+        },
+        {
+          "label": "کاتالوگ ما",
+          "width": 130,
+          "top": 580.296875,
+          "disabled": true,
+          "href": null
+        },
+        {
+          "label": "دفتر مرکزی",
+          "width": 130,
+          "top": 580.296875,
+          "disabled": false,
+          "href": null
+        },
+        {
+          "label": "فروشگاه مرکزی",
+          "width": 130,
+          "top": 580.296875,
+          "disabled": false,
+          "href": null
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "actions": [
+        {
+          "label": "ارتباط با ما",
+          "width": 130,
+          "top": 580.296875,
+          "disabled": false,
+          "href": null
+        },
+        {
+          "label": "کاتالوگ ما",
+          "width": 130,
+          "top": 580.296875,
+          "disabled": true,
+          "href": null
+        },
+        {
+          "label": "دفتر مرکزی",
+          "width": 130,
+          "top": 580.296875,
+          "disabled": false,
+          "href": null
+        },
+        {
+          "label": "فروشگاه مرکزی",
+          "width": 130,
+          "top": 580.296875,
+          "disabled": false,
+          "href": null
+        }
+      ]
+    }
+  ],
+  "disabled": true,
+  "blocked": true,
+  "nextFocus": "دفتر مرکزی",
+  "drawers": [
+    {
+      "name": "ارتباط با ما",
+      "visible": true,
+      "links": [
+        "tel:+989156201162",
+        "tel:+989101154220",
+        "tel:+989150026400",
+        "tel:+989150297404"
+      ]
+    },
+    {
+      "name": "دفتر مرکزی",
+      "visible": true,
+      "links": [
+        "https://www.google.com/maps/dir/?api=1&destination=36.3165102%2C59.5851922",
+        "tel:+985137123212",
+        "tel:+985137123213",
+        "tel:+985137123214",
+        "tel:+985137123215",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "name": "فروشگاه مرکزی",
+      "visible": true,
+      "links": [
+        "https://www.google.com/maps/dir/?api=1&destination=36.352268%2C59.561522",
+        "tel:+985136511717",
+        "tel:+985136511818",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    }
+  ],
+  "enlarged": {
+    "width": 320,
+    "scrollWidth": 320,
+    "columns": "240px"
+  },
+  "reducedMotion": "none",
+  "errors": []
+}

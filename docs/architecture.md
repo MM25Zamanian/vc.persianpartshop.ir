@@ -58,3 +58,7 @@ Dockerfile با pnpm قفل‌شده و frozen lockfile می‌سازد و تن�
 ## انتشار GHCR — ۲۰۲۶-۱۱-۱۷
 
 یک job برای build/push روی main یا dispatch؛ کش لایه‌های BuildKit در GHA، بسته‌های pnpm قفل‌شده و خروجی static در runtime موجود. lint/build تنها داخل Docker اجرا می‌شوند و Next بررسی TypeScript را در build انجام می‌دهد. COPY صریح builder مانع باطل‌شدن کش Next بر اثر تغییر docs/CI/nginx است؛ nginx همچنان ورودی مستقل runtime است. نام تصویر از repository و `SITE_URL` از Actions Variables می‌آید. شرح رفتار، اعتبارسنجی و محدودیت عدم دسترسی به Docker daemon و remote در [ci-ghcr.md](ci-ghcr.md) است.
+
+
+## ۲۰۲۶-۱۱-۱۸ — کاتالوگ
+CatalogAction در app/page.tsx یک Server Component کوچک با تنظیمات business.catalog است: enabled:false به button disabled بدون href تبدیل می‌شود؛ enabled:true لینک مستقیم URL تأییدشده است. وابستگی، endpoint، Client Component یا state جدید ندارد. خروجی static است؛ فعال‌سازی بعدی نیازمند build مجدد است. سه Drawer موجود مستقل باقی‌اند.

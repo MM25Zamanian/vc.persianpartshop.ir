@@ -2,6 +2,7 @@ import Image from "next/image";
 import { PhoneCallingIcon } from "@solar-icons/react/linear/phone-calling";
 import { MapPointIcon } from "@solar-icons/react/linear/map-point";
 import { UsersGroupRoundedIcon } from "@solar-icons/react/linear/users-group-rounded";
+import { BookIcon } from "@solar-icons/react/linear/book";
 import { business, directionsUrl } from "@/config/business";
 import { ContactDrawer } from "./_contact-drawer";
 import { BorderBeam } from "./_border-beam";
@@ -53,6 +54,24 @@ function MapCredit() {
   return <p className="map-credit">© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap contributors</a></p>;
 }
 
+function CatalogAction() {
+  const content = (
+    <>
+      <span className="card-action-icon" aria-hidden="true"><BookIcon size={24} /></span>
+      <span>کاتالوگ ما</span>
+    </>
+  );
+
+  return business.catalog.enabled ? (
+    <a className="card-action" href={business.catalog.url}>{content}</a>
+  ) : (
+    <button className="card-action" type="button" disabled aria-label="کاتالوگ ما" aria-describedby="catalog-status">
+      {content}
+      <span className="card-action-status" id="catalog-status">به‌زودی</span>
+    </button>
+  );
+}
+
 export default function Home() {
   return (
     <main className="business-page" id="main-content">
@@ -69,6 +88,7 @@ export default function Home() {
           <ContactDrawer label="ارتباط با ما" title="ارتباط با ما" description="برای گفت‌وگو با کارشناسان، یکی از شماره‌های زیر را انتخاب کنید." icon={<UsersGroupRoundedIcon size={24} />}>
             <SalesContacts />
           </ContactDrawer>
+          <CatalogAction />
           <ContactDrawer label="دفتر مرکزی" title="دفتر مرکزی" pattern={<Image src="/assets/maps/office-map.svg" alt="" fill sizes="(max-width: 544px) 100vw, 544px" unoptimized />} icon={<MapPointIcon size={24} />}>
             <LocationDetails location={business.office} />
             <div className="location-phones"><PhoneLines phones={business.office.phones} label="دفتر" /></div>
