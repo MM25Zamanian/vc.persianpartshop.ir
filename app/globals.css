@@ -166,7 +166,7 @@ bdi {
   border: 0;
   border-radius: var(--radius-control);
   background: transparent;
-  font-size: 0.8125rem;
+  font-size: 0.78125rem;
   font-weight: 600;
   line-height: 1.8;
   text-wrap: balance;

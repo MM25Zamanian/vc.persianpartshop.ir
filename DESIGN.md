@@ -42,7 +42,7 @@ typography:
     lineHeight: 1.8
   label:
     fontFamily: "var(--font-peyda), Tahoma, sans-serif"
-    fontSize: "0.8125rem"
+    fontSize: "0.78125rem"
     fontWeight: 600
     lineHeight: 1.8
   action:
@@ -166,7 +166,7 @@ Local PeydaWeb WOFF2 fixed weights 400/600/700/800 serve every role. next/font/l
 - **body:** Full showroom address with normal address styling and generous leading.
 - **description:** Representation line and drawer explanations.
 - **phone:** Visible telephone numbers, 18px at the standard root size.
-- **label:** Four trigger captions, intentionally 13px at the standard root size.
+- **label:** Four action captions, intentionally 12.5px at the standard root size.
 - **action:** Drawer map/download action labels.
 - **caption:** The contact-import note, intentionally 13px at the standard root size.
 - **saved-caption:** Saved-contact role labels, sharing the caption size with tighter leading.
@@ -265,3 +265,7 @@ Border Beam بنا بر اصلاح صریح کاربر بی‌نهایت و خط
 
 ## ۲۰۲۶-۱۱-۱۸ — قرارداد فعلی کنترل‌های کارت
 ترتیب RTL چهار کنترل: ارتباط با ما، کاتالوگ ما، دفتر مرکزی، فروشگاه مرکزی. کاتالوگ یک BookIcon خطی۲۴px در همان قاب۵۲px است. فعلاً native disabled با متن/آیکون muted و قاب paper، بدون href/hover فعال؛ وضعیت «به‌زودی» با اندازه۰٫۷۵rem و وزن۴۰۰. grid از min۴rem استفاده می‌کند؛ در متن بزرگ تعداد ستون کمتر می‌شود. رفتار و شواهد: docs/catalog-action.md. سه کنترل دیگر همان Drawerهای فعلی‌اند؛ کاتالوگ پس از فعال‌سازی لینک مستقیم خواهد بود.
+
+
+## ۲۰۲۶-۱۱-۱۹ — فعال‌سازی کاتالوگ و لیبل ظریف‌تر
+اندازهٔ مشترک لیبل چهار کنترل ۰٫۷۸۱۲۵rem (۱۲٫۵px در ریشهٔ معمول) است؛ وزن۶۰۰، ارتفاع خط۱٫۸ و قاب/آیکون حفظ شدند. کاتالوگ لینک فعال با همان رنگ و حالت‌های hover/focus کنترل‌های دیگر است؛ وضعیت «به‌زودی» نمایش داده نمی‌شود. این تصمیم بر وضعیت غیرفعال ثبت‌شدهٔ روز قبل مقدم است.

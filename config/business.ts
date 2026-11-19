@@ -4,7 +4,7 @@ export const business = {
   representation: "نمایندگی انحصاری کاشی پرسپولیس یزد در خراسان بزرگ",
   catalog: {
     url: "https://catalog.persianpartshop.ir",
-    enabled: false,
+    enabled: true,
   },
   office: {
     name: "دفتر مرکزی",

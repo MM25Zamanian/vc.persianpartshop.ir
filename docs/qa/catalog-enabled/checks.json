@@ -1,0 +1,132 @@
+{
+  "measurements": [
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "actions": [
+        {
+          "text": "ارتباط با ما",
+          "font": "12.5px",
+          "weight": "600",
+          "width": 64,
+          "href": null,
+          "disabled": false
+        },
+        {
+          "text": "کاتالوگ ما",
+          "font": "12.5px",
+          "weight": "600",
+          "width": 64,
+          "href": "https://catalog.persianpartshop.ir",
+          "disabled": false
+        },
+        {
+          "text": "دفتر مرکزی",
+          "font": "12.5px",
+          "weight": "600",
+          "width": 64,
+          "href": null,
+          "disabled": false
+        },
+        {
+          "text": "فروشگاه مرکزی",
+          "font": "12.5px",
+          "weight": "600",
+          "width": 64,
+          "href": null,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "actions": [
+        {
+          "text": "ارتباط با ما",
+          "font": "12.5px",
+          "weight": "600",
+          "width": 81.5,
+          "href": null,
+          "disabled": false
+        },
+        {
+          "text": "کاتالوگ ما",
+          "font": "12.5px",
+          "weight": "600",
+          "width": 81.5,
+          "href": "https://catalog.persianpartshop.ir",
+          "disabled": false
+        },
+        {
+          "text": "دفتر مرکزی",
+          "font": "12.5px",
+          "weight": "600",
+          "width": 81.5,
+          "href": null,
+          "disabled": false
+        },
+        {
+          "text": "فروشگاه مرکزی",
+          "font": "12.5px",
+          "weight": "600",
+          "width": 81.5,
+          "href": null,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "actions": [
+        {
+          "text": "ارتباط با ما",
+          "font": "12.5px",
+          "weight": "600",
+          "width": 130,
+          "href": null,
+          "disabled": false
+        },
+        {
+          "text": "کاتالوگ ما",
+          "font": "12.5px",
+          "weight": "600",
+          "width": 130,
+          "href": "https://catalog.persianpartshop.ir",
+          "disabled": false
+        },
+        {
+          "text": "دفتر مرکزی",
+          "font": "12.5px",
+          "weight": "600",
+          "width": 130,
+          "href": null,
+          "disabled": false
+        },
+        {
+          "text": "فروشگاه مرکزی",
+          "font": "12.5px",
+          "weight": "600",
+          "width": 130,
+          "href": null,
+          "disabled": false
+        }
+      ]
+    }
+  ],
+  "href": "https://catalog.persianpartshop.ir",
+  "tabFocus": {
+    "text": "کاتالوگ ما",
+    "href": "https://catalog.persianpartshop.ir"
+  },
+  "navigation": "https://catalog.persianpartshop.ir/",
+  "destinationRequest": "https://catalog.persianpartshop.ir/",
+  "enlarged": {
+    "width": 320,
+    "scrollWidth": 320,
+    "font": "25px"
+  },
+  "reducedMotion": "none",
+  "errors": []
+}
